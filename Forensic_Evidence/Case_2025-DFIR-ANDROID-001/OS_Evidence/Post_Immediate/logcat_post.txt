@@ -1,0 +1,875 @@
+--------- beginning of main
+10-24 23:40:15.231  1753  8659 W GmsLocationProvider: Error removing location updates: 16
+--------- beginning of kernel
+10-24 23:40:16.202     0     0 D logd    : logdr: UID=0 GID=0 PID=9210 b tail=0 logMask=99 pid=0 start=0ns timeout=0ns
+10-24 23:40:18.208  9215  9215 D sqlite3 : Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+10-24 23:40:18.208  9215  9215 D sqlite3 : I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+10-24 23:40:20.511  1325  2253 I Icing   : Indexing com.google.android.apps.messaging-internal.3p:Message_no_gsa from com.google.android.apps.messaging using seqno 0 [CONTEXT service_id=21 ]
+10-24 23:40:20.521  1325  2253 I Icing   : Indexing com.google.android.gms-internal.3p:Message from com.google.android.gms using seqno 0 [CONTEXT service_id=21 ]
+10-24 23:40:20.523  1325  2253 I Icing   : Indexing com.google.android.apps.messaging-internal.3p:Message_no_gsa from com.google.android.apps.messaging using seqno 0 [CONTEXT service_id=21 ]
+10-24 23:40:20.524  1325  2253 I Icing   : Indexing com.google.android.apps.messaging-internal.3p:Message_no_gsa from com.google.android.apps.messaging using seqno 0 [CONTEXT service_id=21 ]
+10-24 23:40:20.525  1325  2253 I Icing   : Indexing com.google.android.gms-internal.3p:Message from com.google.android.gms using seqno 0 [CONTEXT service_id=21 ]
+10-24 23:40:20.528  1325  2253 I Icing   : Indexing com.google.android.gms-internal.3p:Message from com.google.android.gms using seqno 0 [CONTEXT service_id=21 ]
+10-24 23:40:20.542   524  1807 D WifiNl80211Manager: Scan result ready event
+10-24 23:40:20.542   524  1807 D WifiNative: Scan result ready event
+10-24 23:40:28.672  9219  9219 D sqlite3 : Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+10-24 23:40:28.673  9219  9219 D sqlite3 : I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+10-24 23:40:34.471     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=300000 cc=10 chg=
+10-24 23:40:38.025  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=291.98364, y[0]=1777.923, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3983660, downTime=3983660, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:40:38.131  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=446.9568, y[0]=1169.9286, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3983765, downTime=3983660, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:40:38.689  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=372.96387, y[0]=1109.9432, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3984324, downTime=3984324, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:40:38.753  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=372.96387, y[0]=1109.9432, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3984388, downTime=3984324, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:40:38.772  1078  1078 D TaplEvents: Main / start: startAppShortcutOrInfoActivity
+--------- beginning of system
+10-24 23:40:38.774   524  1807 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.dialer/.main.impl.MainActivity bnds=[238,965][439,1276]} from uid 10154
+10-24 23:40:38.775   524   546 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+10-24 23:40:38.776   524  1808 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:40:38.777   524  1808 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:40:38.777   430   430 I perfetto: ing_service_impl.cc:758 Configured tracing session 108, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+10-24 23:40:38.778   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=108)
+10-24 23:40:38.784   524   524 W ActivityManager: Unable to start service Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } U=0: not found
+10-24 23:40:38.784   524   524 W RemoteAppPredictionService: could not bind to Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } using flags 67108865
+10-24 23:40:38.798  8715  8715 I Dialer  : CallLogFragment.onStart - enter
+10-24 23:40:38.799  8715  8715 I Dialer  : OldMainActivityPeer.onNewIntent - enter
+10-24 23:40:38.799  8715  8715 I Dialer  : OldMainActivityPeer.onHandleIntent - Show last tab
+10-24 23:40:38.799  8715  8715 I Dialer  : MainBottomNavBarBottomNavTabListener.onCallLogSelected - enter
+10-24 23:40:38.799  8715  8715 I Dialer  : MainBottomNavBarBottomNavTabListener.onActivityResume - enter
+10-24 23:40:38.799  8715  8715 I Dialer  : MainCallLogFragmentListener.onActivityResume - enter
+10-24 23:40:38.799  8715  8715 I Dialer  : MainCallLogFragmentListener.registerVoicemailStatusContentObserver - enter
+10-24 23:40:38.799  8715  8715 I Dialer  : MainCallLogFragmentListener.registerVoicemailStatusContentObserver - register
+10-24 23:40:38.807   419   419 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+10-24 23:40:38.791     0     0 W perfetto: enabled ftrace
+10-24 23:40:38.835  8715  8715 I Dialer  : CallLogQueryHandler.fetchVoicemailStatus - fetching voicemail status
+10-24 23:40:38.836  8715  8715 I Dialer  : DialerExecutorModule.newThread - creating low priority thread
+10-24 23:40:38.838  8715  9227 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - enter
+10-24 23:40:38.838  8715  9227 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - last updated at 0
+10-24 23:40:38.842  8715  8715 I Dialer  : CallLogFragment.onResume - enter
+10-24 23:40:38.856   314   371 W EmuHWC2 : validate: layer 278 CompositionType 1, fallback
+10-24 23:40:38.858   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:38.870   314   371 W EmuHWC2 : validate: layer 278 CompositionType 1, fallback
+10-24 23:40:38.872   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:38.881  8715  8715 I Dialer  : CallLogQueryHandler.fetchVoicemailStatus - fetching voicemail status
+10-24 23:40:38.881  8715  8715 I Dialer  : CallLogFragment.onPageSelected - enter
+10-24 23:40:38.882  8715  8715 I Dialer  : MainCallLogHost.enableFloatingButton - enabled: true
+10-24 23:40:38.885  8715  9227 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - broadcasting smart dial update
+10-24 23:40:38.887   314   371 W EmuHWC2 : validate: layer 278 CompositionType 1, fallback
+10-24 23:40:38.889   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:38.905   314   371 W EmuHWC2 : validate: layer 278 CompositionType 1, fallback
+10-24 23:40:38.906   524  1387 I Telecom : PhoneAccountRegistrar: getSimCallManager: SimCallManager for subId 1 queried, returning: null: TSI.gDOPA@DVw
+10-24 23:40:38.907   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:38.922   314   371 W EmuHWC2 : validate: layer 278 CompositionType 1, fallback
+10-24 23:40:38.925   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:38.928   524  1807 I Telecom : PhoneAccountRegistrar: getSimCallManager: SimCallManager for subId 1 queried, returning: null: TSI.gDOPA@DWA
+10-24 23:40:38.938   314   371 W EmuHWC2 : validate: layer 278 CompositionType 1, fallback
+10-24 23:40:38.941   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:38.950   524  1394 I Telecom : PhoneAccountRegistrar: getSimCallManager: SimCallManager for subId 1 queried, returning: null: TSI.gDOPA@DWI
+10-24 23:40:38.954   314   371 W EmuHWC2 : validate: layer 278 CompositionType 1, fallback
+10-24 23:40:38.957   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:38.971   314   371 W EmuHWC2 : validate: layer 278 CompositionType 1, fallback
+10-24 23:40:38.990   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:38.991   314   371 W EmuHWC2 : validate: layer 278 CompositionType 1, fallback
+10-24 23:40:39.001   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:39.006   314   371 W EmuHWC2 : validate: layer 278 CompositionType 1, fallback
+10-24 23:40:39.046   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:39.054   314   371 W EmuHWC2 : validate: layer 278 CompositionType 1, fallback
+10-24 23:40:39.061  8715  8715 I Dialer  : OldMainActivityPeer.MainCallLogFragmentListener - onVoicemailStatusFetched
+10-24 23:40:39.061  8715  8715 I Dialer  : OldMainActivityPeer.onVoicemailStatusFetched - hasActiveVoicemailProvider:true, number of active voicemail sources:1
+10-24 23:40:39.061  8715  8715 I Dialer  : OldMainActivityPeer.showVoicemail - showing Tab:true
+10-24 23:40:39.063   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:39.068   314   371 W EmuHWC2 : validate: layer 278 CompositionType 1, fallback
+10-24 23:40:39.078   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:39.084   314   371 W EmuHWC2 : validate: layer 279 CompositionType 1, fallback
+10-24 23:40:39.086   524   546 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+10-24 23:40:39.090   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:39.099   314   371 W EmuHWC2 : validate: layer 279 CompositionType 1, fallback
+10-24 23:40:39.101   524   552 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.dialer/2900000/com.android.dialer.main.impl.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+10-24 23:40:39.103   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:39.112   314   371 W EmuHWC2 : validate: layer 279 CompositionType 1, fallback
+10-24 23:40:39.116   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:39.121   314   371 W EmuHWC2 : validate: layer 279 CompositionType 1, fallback
+10-24 23:40:39.127   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:39.138   314   371 W EmuHWC2 : validate: layer 279 CompositionType 1, fallback
+10-24 23:40:39.141   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:39.155   314   371 W EmuHWC2 : validate: layer 279 CompositionType 1, fallback
+10-24 23:40:39.158   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:39.172   314   371 W EmuHWC2 : validate: layer 279 CompositionType 1, fallback
+10-24 23:40:39.174   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:39.187   314   371 W EmuHWC2 : validate: layer 279 CompositionType 1, fallback
+10-24 23:40:39.189   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:39.205   314   371 W EmuHWC2 : validate: layer 279 CompositionType 1, fallback
+10-24 23:40:39.208   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:39.271   380   380 E Layer   : [Surface(name=Task=1)/@0xc554124 - animation-leash#0] No local sync point found
+10-24 23:40:39.271   380   380 E Layer   : [Surface(name=Task=1)/@0xc554124 - animation-leash#0] No local sync point found
+10-24 23:40:39.271   380   380 E Layer   : [Surface(name=Task=61)/@0xd5a5a6c - animation-leash#0] No local sync point found
+10-24 23:40:39.272   380   380 E Layer   : [Surface(name=Task=61)/@0xd5a5a6c - animation-leash#0] No local sync point found
+10-24 23:40:39.310  1753  8655 I PBSessionCacheImpl: Deleted sessionId[7711536854049045] from persistence.
+10-24 23:40:39.335  1753  2133 W SearchServiceCore: Abort, client detached.
+10-24 23:40:41.647   345   345 I android.hardware.vibrator-service.example: Vibrator reporting capabilities
+10-24 23:40:41.648   345   345 I android.hardware.vibrator-service.example: Vibrator off
+10-24 23:40:41.649   345   345 I android.hardware.vibrator-service.example: Vibrator perform
+10-24 23:40:41.649   524  1808 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+10-24 23:40:41.650   181   181 I servicemanager: Found android.hardware.vibrator.IVibrator/default in device VINTF manifest.
+10-24 23:40:41.651   345   345 I android.hardware.vibrator-service.example: Vibrator perform
+10-24 23:40:41.651   524  1808 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+10-24 23:40:41.652   181   181 I servicemanager: Found android.hardware.vibrator.IVibrator/default in device VINTF manifest.
+10-24 23:40:41.653   345   345 I android.hardware.vibrator-service.example: Vibrator on for timeoutMs: 1
+10-24 23:40:41.654   345   345 I android.hardware.vibrator-service.example: Vibrator set amplitude: 1
+10-24 23:40:41.677   345   345 I android.hardware.vibrator-service.example: Vibrator on for timeoutMs: 21
+10-24 23:40:41.677   345   345 I android.hardware.vibrator-service.example: Vibrator set amplitude: 1
+10-24 23:40:41.700   345   345 I android.hardware.vibrator-service.example: Vibrator off
+10-24 23:40:41.803   215   217 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup36: Permission denied
+10-24 23:40:41.811   215   217 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+10-24 23:40:41.800   215   215 W Binder:215_1: type=1400 audit(0.0:245): avc: denied { read } for name="wakeup36" dev="sysfs" ino=19537 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+10-24 23:40:41.808   215   215 W Binder:215_1: type=1400 audit(0.0:246): avc: denied { read } for name="wakeup35" dev="sysfs" ino=19474 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+10-24 23:40:42.137   524  1808 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:40:42.146   524  1808 I chatty  : uid=1000(system) Binder:524_15 identical 1 line
+10-24 23:40:42.751   524  1808 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:40:42.751   524  1394 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:40:42.751   524  1394 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:40:42.752   392   464 D AudioFlinger: mixer(0xedd13030) throttle end: throttle time(32)
+10-24 23:40:43.077  8715  8742 D OpenGLRenderer: endAllActiveAnimators on 0xe1739530 (MenuPopupWindow$MenuDropDownListView) with handle 0xe7e67190
+10-24 23:40:43.785   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=108)
+10-24 23:40:43.787   419   419 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+10-24 23:40:43.787   430   430 I perfetto: ng_service_impl.cc:1948 Tracing session 108 ended, total sessions:0
+10-24 23:40:43.771     0     0 W perfetto: disabled ftrace
+10-24 23:40:44.177  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+10-24 23:40:44.177  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+10-24 23:40:44.733   345   345 I android.hardware.vibrator-service.example: Vibrator reporting capabilities
+10-24 23:40:44.733   345   345 I android.hardware.vibrator-service.example: Vibrator off
+10-24 23:40:44.734   345   345 I android.hardware.vibrator-service.example: Vibrator perform
+10-24 23:40:44.734   524  1808 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+10-24 23:40:44.735   181   181 I servicemanager: Found android.hardware.vibrator.IVibrator/default in device VINTF manifest.
+10-24 23:40:44.736   345   345 I android.hardware.vibrator-service.example: Vibrator perform
+10-24 23:40:44.737   524  1808 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+10-24 23:40:44.737   181   181 I servicemanager: Found android.hardware.vibrator.IVibrator/default in device VINTF manifest.
+10-24 23:40:44.741   345   345 I android.hardware.vibrator-service.example: Vibrator on for timeoutMs: 1
+10-24 23:40:44.742   345   345 I android.hardware.vibrator-service.example: Vibrator set amplitude: 1
+10-24 23:40:44.767   345   345 I android.hardware.vibrator-service.example: Vibrator on for timeoutMs: 21
+10-24 23:40:44.767   345   345 I android.hardware.vibrator-service.example: Vibrator set amplitude: 1
+10-24 23:40:44.789   345   345 I android.hardware.vibrator-service.example: Vibrator off
+10-24 23:40:45.763   392   464 D AudioFlinger: mixer(0xedd13030) throttle end: throttle time(38)
+10-24 23:40:46.061  8715  8742 D OpenGLRenderer: endAllActiveAnimators on 0xb6b020b0 (MenuPopupWindow$MenuDropDownListView) with handle 0xb78474b0
+10-24 23:40:46.276   524   543 D AutofillManagerService: Close system dialogs
+10-24 23:40:46.277   524   544 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 0
+10-24 23:40:46.277   702   702 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{f018b61 I.E...... ......ID 0,0-1080,2340} canPanelBeCollapsed(): false
+10-24 23:40:46.277   524   546 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+10-24 23:40:46.280   430   430 I perfetto: ing_service_impl.cc:758 Configured tracing session 109, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+10-24 23:40:46.280   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=109)
+10-24 23:40:46.283  8715  8715 I Dialer  : CallLogFragment.onPause - enter
+10-24 23:40:46.285  8715  8715 I Dialer  : CallLogFragment.onPageUnselected - enter
+10-24 23:40:46.285  8715  8715 I Dialer  : MainSearchController.onActivityPause - enter
+10-24 23:40:46.291  1078  1078 D TaplTarget: Launcher.onNewIntent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10400100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras) }
+10-24 23:40:46.295   702   702 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{f018b61 I.E...... ......ID 0,0-1080,2340} canPanelBeCollapsed(): false
+10-24 23:40:46.296   524   543 D AutofillManagerService: Close system dialogs
+10-24 23:40:46.303   419   419 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+10-24 23:40:46.287     0     0 W perfetto: enabled ftrace
+10-24 23:40:46.306   524  1807 W ActivityManager: Unable to start service Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } U=0: not found
+10-24 23:40:46.307   524  1807 W RemoteAppPredictionService: could not bind to Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } using flags 67108865
+10-24 23:40:46.482   524   552 D ArtManagerInternalImpl: /data/misc/iorapd/com.google.android.apps.nexuslauncher/821/com.google.android.apps.nexuslauncher.NexusLauncherActivity/compiled_traces/compiled_trace.pb doesn't exist
+10-24 23:40:46.486   524   546 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+10-24 23:40:46.494  1753  2133 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+10-24 23:40:46.497  1753  1946 W LocationOracle: No location history returned by ContextManager
+10-24 23:40:46.509  1193  2235 W GCoreFlp: No location to return for getLastLocation()
+10-24 23:40:46.515  1078  1078 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@9f62c4a mOrientationHandler=PortraitPagedViewHandler@a8b97bb mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=true mFlags=299]
+10-24 23:40:46.516  1078  1078 I chatty  : uid=10154(com.google.android.apps.nexuslauncher) identical 2 lines
+10-24 23:40:46.516  1078  1078 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@9f62c4a mOrientationHandler=PortraitPagedViewHandler@a8b97bb mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=true mFlags=299]
+10-24 23:40:46.523  1753  1753 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+10-24 23:40:46.528  1753  2133 I TngMinusOneSync: Syncing TNG:-1
+10-24 23:40:46.528  1753  1960 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.googlequicksearchbox/files/sharedminusonemodule/shared/SharedMinusOneData.pb.tmp
+10-24 23:40:47.063  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=564.94995, y[0]=1198.9215, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3992692, downTime=3992692, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:40:47.128  8715  8715 I Dialer  : CallLogFragment.onStop - enter
+10-24 23:40:47.129  8715  8715 I Dialer  : CallLogNotificationsService.cancelAllMissedCalls - enter
+10-24 23:40:47.130  8715  8715 I Dialer  : CallLogAdapter.onSaveInstanceState - saved: 0, selectedItemsSize:0
+10-24 23:40:47.130  8715  8855 I Dialer  : CallLogNotificationsService.cancelAllMissedCallsBackground - enter
+10-24 23:40:47.139   524  1808 W Telecom : MissedCallNotifierImpl: Showing missed calls through default dialer.: TSI.cMCN@DZU
+10-24 23:40:47.149  8715  8715 I Dialer  : MissedCallNotificationReceiver.onReceive - enter
+10-24 23:40:47.151  8715  8715 I Dialer  : DialerExecutorModule.newThread - creating low priority thread
+10-24 23:40:47.152  8715  9241 I Dialer  : MissedCallNotifier.updateMissedCallNotification - enter
+10-24 23:40:47.164  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=599.9524, y[0]=590.9271, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3992797, downTime=3992692, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:40:47.179  8715  8715 I Dialer  : MissedCallNotificationReceiver.onReceive - update missed call notifications successful
+10-24 23:40:47.180  8715  8715 I Dialer  : MissedCallNotificationReceiver.updateBadgeCount - update badge count: 0 success: false
+10-24 23:40:47.838  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+10-24 23:40:47.839  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+10-24 23:40:48.625  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=312.97852, y[0]=794.9487, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3994260, downTime=3994260, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:40:48.690  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=312.97852, y[0]=794.9487, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3994325, downTime=3994260, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:40:48.705  1078  1078 D TaplEvents: Main / start: startAppShortcutOrInfoActivity
+10-24 23:40:48.706   524  1394 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.documentsui/com.android.documentsui.LauncherActivity bnds=[238,654][439,965]} from uid 10154
+10-24 23:40:48.707   524   546 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+10-24 23:40:48.710   430   430 I perfetto: ing_service_impl.cc:758 Configured tracing session 110, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:2, uid:1071 session name: ""
+10-24 23:40:48.710   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=110)
+10-24 23:40:48.713   524   524 W ActivityManager: Unable to start service Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } U=0: not found
+10-24 23:40:48.713   524   524 W RemoteAppPredictionService: could not bind to Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } using flags 67108865
+10-24 23:40:48.714   524  1394 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (3932570)
+10-24 23:40:48.729  9105  9105 D LauncherActivity: Restoring existing task > //com.android.documentsui.launchControl#1761323986911
+10-24 23:40:48.729   524  1387 I ActivityTaskManager: START u0 {dat=//com.android.documentsui.launchControl flg=0x10280000 cmp=com.google.android.documentsui/com.android.documentsui.files.FilesActivity (has extras)} from uid 10083
+10-24 23:40:48.748  9105  9105 D AbstractActionHandler: Loader has finished for: content://com.android.providers.media.documents/document/images_bucket%3A-1617409521
+10-24 23:40:48.748  9105  9105 I Model   : Updating model with new result set.
+10-24 23:40:48.748  9105  9105 D DirectoryFragment: Received model update. Loading=false
+10-24 23:40:48.751  9105  9248 D ProvidersAccess: Matched roots: [Root{userId=0, authority=null, rootId=null, title=Recent, isUsb=false, isSd=false, isMtp=false} @ content:/root/null, Root{userId=0, authority=com.android.externalstorage.documents, rootId=0000-0000, title=SDCARD, isUsb=false, isSd=true, isMtp=false} @ content://com.android.externalstorage.documents/root/0000-0000, Root{userId=0, authority=com.android.externalstorage.documents, rootId=primary, title=sdk_gphone_x86, isUsb=false, isSd=false, isMtp=false} @ content://com.android.externalstorage.documents/root/primary, Root{userId=0, authority=com.android.providers.downloads.documents, rootId=downloads, title=Downloads, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.downloads.documents/root/downloads, Root{userId=0, authority=com.android.providers.media.documents, rootId=images_root, title=Images, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/images_root, Root{userId=0, authority=com.android.providers.media.documents, rootId=videos_root, title=Videos, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/videos_root, Root{userId=0, authority=com.android.providers.media.documents, rootId=audio_root, title=Audio, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/audio_root, Root{userId=0, authority=com.android.providers.media.documents, rootId=documents_root, title=Documents, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/documents_root]
+10-24 23:40:48.784  9105  9129 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+10-24 23:40:48.869   524   552 D ArtManagerInternalImpl: /data/misc/iorapd/com.google.android.documentsui/300900700/com.android.documentsui.files.FilesActivity/compiled_traces/compiled_trace.pb doesn't exist
+10-24 23:40:48.871   524   552 I ActivityTaskManager: Displayed com.google.android.documentsui/com.android.documentsui.files.FilesActivity: +160ms
+10-24 23:40:48.880   524   546 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+10-24 23:40:48.888  9105  9248 D ProvidersAccess: Matched roots: [Root{userId=0, authority=null, rootId=null, title=Recent, isUsb=false, isSd=false, isMtp=false} @ content:/root/null, Root{userId=0, authority=com.android.externalstorage.documents, rootId=0000-0000, title=SDCARD, isUsb=false, isSd=true, isMtp=false} @ content://com.android.externalstorage.documents/root/0000-0000, Root{userId=0, authority=com.android.externalstorage.documents, rootId=primary, title=sdk_gphone_x86, isUsb=false, isSd=false, isMtp=false} @ content://com.android.externalstorage.documents/root/primary, Root{userId=0, authority=com.android.providers.downloads.documents, rootId=downloads, title=Downloads, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.downloads.documents/root/downloads, Root{userId=0, authority=com.android.providers.media.documents, rootId=images_root, title=Images, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/images_root, Root{userId=0, authority=com.android.providers.media.documents, rootId=videos_root, title=Videos, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/videos_root, Root{userId=0, authority=com.android.providers.media.documents, rootId=audio_root, title=Audio, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/audio_root, Root{userId=0, authority=com.android.providers.media.documents, rootId=documents_root, title=Documents, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/documents_root]
+10-24 23:40:48.922   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:48.924   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:48.938   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:48.940   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:48.956   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:48.958   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:48.971   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:48.973   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:48.987   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:48.989   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:49.005   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:49.007   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:49.020   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:49.022   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:49.038   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:49.040   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:49.055   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:49.057   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:49.071   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:49.073   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:49.087   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:49.089   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:49.105   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:49.107   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:49.122   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:49.124   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:49.138   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:49.140   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:49.155   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:49.157   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:49.170   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:49.172   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:49.188   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:49.194   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:49.205   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:49.207   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:49.221   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:49.223   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:49.237   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:49.239   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:40:49.254   314   371 W EmuHWC2 : validate: layer 284 CompositionType 1, fallback
+10-24 23:40:49.256   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:40:49.320   380   380 E Layer   : [Surface(name=Task=64)/@0x55cc73f - animation-leash#0] No local sync point found
+10-24 23:40:49.321   380   380 E Layer   : [Surface(name=Task=64)/@0x55cc73f - animation-leash#0] No local sync point found
+10-24 23:40:49.321   380   380 E Layer   : [Surface(name=Task=1)/@0xc554124 - animation-leash#0] No local sync point found
+10-24 23:40:49.321   380   380 E Layer   : [Surface(name=Task=1)/@0xc554124 - animation-leash#0] No local sync point found
+10-24 23:40:49.344  1753  8655 I PBSessionCacheImpl: Deleted sessionId[7711536854049048] from persistence.
+10-24 23:40:49.348   524  1808 D WifiNl80211Manager: Scan result ready event
+10-24 23:40:49.348   524  1808 D WifiNative: Scan result ready event
+10-24 23:40:49.350  1753  2133 W SearchServiceCore: Abort, client detached.
+10-24 23:40:50.320  9105  9105 D ActionModeController: Starting action mode.
+10-24 23:40:50.331  9105  9105 D ContentLock: monitor listener, is locked : true
+10-24 23:40:50.332   345   345 I android.hardware.vibrator-service.example: Vibrator reporting capabilities
+10-24 23:40:50.333   345   345 I android.hardware.vibrator-service.example: Vibrator off
+10-24 23:40:50.334   345   345 I android.hardware.vibrator-service.example: Vibrator perform
+10-24 23:40:50.334   524  1807 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+10-24 23:40:50.334   181   181 I servicemanager: Found android.hardware.vibrator.IVibrator/default in device VINTF manifest.
+10-24 23:40:50.334   345   345 I android.hardware.vibrator-service.example: Vibrator perform
+10-24 23:40:50.335   524  1807 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+10-24 23:40:50.335   181   181 I servicemanager: Found android.hardware.vibrator.IVibrator/default in device VINTF manifest.
+10-24 23:40:50.336   345   345 I android.hardware.vibrator-service.example: Vibrator on for timeoutMs: 1
+10-24 23:40:50.337   345   345 I android.hardware.vibrator-service.example: Vibrator set amplitude: 1
+10-24 23:40:50.360   345   345 I android.hardware.vibrator-service.example: Vibrator on for timeoutMs: 21
+10-24 23:40:50.360   345   345 I android.hardware.vibrator-service.example: Vibrator set amplitude: 1
+10-24 23:40:50.383   345   345 I android.hardware.vibrator-service.example: Vibrator off
+10-24 23:40:50.647  9105  9105 D ContentLock: monitor listener, is locked : false
+10-24 23:40:50.786  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+10-24 23:40:50.786  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+10-24 23:40:51.284   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=109)
+10-24 23:40:51.285   430   430 I perfetto: ng_service_impl.cc:1948 Tracing session 109 ended, total sessions:1
+10-24 23:40:51.395  9105  9105 D ActionModeController: Finishing action mode.
+10-24 23:40:51.396  9105  9105 D ActionModeController: Handling action mode destroyed.
+10-24 23:40:51.588  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+10-24 23:40:51.588  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+10-24 23:40:52.194   524  1807 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:40:52.204   524  1807 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:40:52.860  9105  9105 D ActionModeController: Starting action mode.
+10-24 23:40:52.866  9105  9105 D ContentLock: monitor listener, is locked : true
+10-24 23:40:52.867   345   345 I android.hardware.vibrator-service.example: Vibrator reporting capabilities
+10-24 23:40:52.867   345   345 I android.hardware.vibrator-service.example: Vibrator off
+10-24 23:40:52.868   345   345 I android.hardware.vibrator-service.example: Vibrator perform
+10-24 23:40:52.868   524  1807 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+10-24 23:40:52.868   181   181 I servicemanager: Found android.hardware.vibrator.IVibrator/default in device VINTF manifest.
+10-24 23:40:52.869   345   345 I android.hardware.vibrator-service.example: Vibrator perform
+10-24 23:40:52.869   524  1807 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+10-24 23:40:52.870   181   181 I servicemanager: Found android.hardware.vibrator.IVibrator/default in device VINTF manifest.
+10-24 23:40:52.871   345   345 I android.hardware.vibrator-service.example: Vibrator on for timeoutMs: 1
+10-24 23:40:52.871   345   345 I android.hardware.vibrator-service.example: Vibrator set amplitude: 1
+10-24 23:40:52.895   345   345 I android.hardware.vibrator-service.example: Vibrator on for timeoutMs: 21
+10-24 23:40:52.896   345   345 I android.hardware.vibrator-service.example: Vibrator set amplitude: 1
+10-24 23:40:52.918   345   345 I android.hardware.vibrator-service.example: Vibrator off
+10-24 23:40:53.100  9105  9105 D ContentLock: monitor listener, is locked : false
+10-24 23:40:53.716   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=110)
+10-24 23:40:53.717   430   430 I perfetto: ng_service_impl.cc:1948 Tracing session 110 ended, total sessions:0
+10-24 23:40:53.718   419   419 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+10-24 23:40:53.703     0     0 W perfetto: disabled ftrace
+10-24 23:40:53.933  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+10-24 23:40:53.933  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+10-24 23:40:54.084   524  1808 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:40:54.085   524  1808 I chatty  : uid=1000(system) Binder:524_15 identical 1 line
+10-24 23:40:54.086   524  1808 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:40:55.123  9105  9105 D ActionModeController: Handling action mode destroyed.
+10-24 23:40:55.125  9105  9105 D FileOperations: Handling generic 'start' call.
+10-24 23:40:55.131   524  1807 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10083; state: DISABLED
+10-24 23:40:55.131   524   554 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10083; state: ENABLED
+10-24 23:40:55.133  9105  9130 D OpenGLRenderer: endAllActiveAnimators on 0xe170d250 (RippleDrawable) with handle 0xb764fcd0
+10-24 23:40:55.139   297   297 D Zygote  : Forked child process 9254
+10-24 23:40:55.142   524   554 I ActivityManager: Start proc 9254:com.google.android.documentsui:com.android.documentsui.services/u0a83 for service {com.google.android.documentsui/com.android.documentsui.services.FileOperationService}
+10-24 23:40:55.142  9254  9254 W entsui.service: Unexpected CPU variant for X86 using defaults: x86
+10-24 23:40:55.149   392   464 D AudioFlinger: mixer(0xedd13030) throttle end: throttle time(35)
+10-24 23:40:55.152  4518  4524 I adbd    : jdwp connection from 9254
+10-24 23:40:55.183  9254  9254 I entsui.service: The ClassLoaderContext is a special shared library.
+10-24 23:40:55.189  9254  9254 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-24 23:40:55.189  9254  9254 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-24 23:40:55.235  9254  9254 D FileOperationService: Created.
+10-24 23:40:55.241  9254  9254 D FileOperationService: onStartCommand: 4000761-0 with serviceId 1
+10-24 23:40:55.245  9254  9254 D FileOperationService: Scheduling job 4000761-0.
+10-24 23:40:55.255  9254  9277 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+10-24 23:40:55.274  9254  9279 D FileOperationService: onStart: 4000761-0
+10-24 23:40:55.276  9254  9279 D FileOperationService: Set foreground job to 4000761-0
+10-24 23:40:55.278  9254  9254 D DocumentsApplication: OverlayManager.setEnabled() result: true
+10-24 23:40:55.278   524  1394 D CompatibilityChangeReporter: Compat change id reported: 136219221; UID 10083; state: ENABLED
+10-24 23:40:55.296  9254  9279 D DeleteJob: Deleting document @ content://com.android.providers.media.documents/document/image%3A77
+10-24 23:40:55.305  9105  9152 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10083; state: ENABLED
+10-24 23:40:55.314  9105  9105 D Documents: Content updated.
+10-24 23:40:55.314  9105  9105 D ContentLock: run when unlock, is locked : false
+10-24 23:40:55.318  9254  9279 D FileOperationService: onFinished: 4000761-0
+10-24 23:40:55.318  9254  9279 D FileOperationService: deleteJob: 4000761-0
+10-24 23:40:55.318  9254  9254 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10083; state: ENABLED
+10-24 23:40:55.319  9254  9254 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+10-24 23:40:55.319  9254  9279 D FileOperationService: Stop foreground
+10-24 23:40:55.321  9105  9105 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+10-24 23:40:55.331  9254  9254 D FileOperationService: Canceling notification for 4000761-0
+10-24 23:40:55.332  9254  9254 D FileOperationService: Shutting down. Last serviceId was 1
+10-24 23:40:55.332  9254  9254 D FileOperationService: Stopping service: true
+10-24 23:40:55.333  9254  9254 D FileOperationService: Shutting down executor.
+10-24 23:40:55.333  9254  9254 D FileOperationService: Destroyed.
+10-24 23:40:55.348  9105  9105 D AbstractActionHandler: Loader has finished for: content://com.android.providers.media.documents/document/images_bucket%3A-1617409521
+10-24 23:40:55.348  9105  9105 I Model   : Updating model with new result set.
+10-24 23:40:55.349  9254  9277 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+10-24 23:40:55.349  9105  9105 D DirectoryFragment: Received model update. Loading=false
+10-24 23:40:55.365  9105  9248 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+10-24 23:40:55.386  9105  9281 D ProvidersAccess: Matched roots: [Root{userId=0, authority=null, rootId=null, title=Recent, isUsb=false, isSd=false, isMtp=false} @ content:/root/null, Root{userId=0, authority=com.android.externalstorage.documents, rootId=0000-0000, title=SDCARD, isUsb=false, isSd=true, isMtp=false} @ content://com.android.externalstorage.documents/root/0000-0000, Root{userId=0, authority=com.android.externalstorage.documents, rootId=primary, title=sdk_gphone_x86, isUsb=false, isSd=false, isMtp=false} @ content://com.android.externalstorage.documents/root/primary, Root{userId=0, authority=com.android.providers.downloads.documents, rootId=downloads, title=Downloads, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.downloads.documents/root/downloads, Root{userId=0, authority=com.android.providers.media.documents, rootId=images_root, title=Images, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/images_root, Root{userId=0, authority=com.android.providers.media.documents, rootId=videos_root, title=Videos, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/videos_root, Root{userId=0, authority=com.android.providers.media.documents, rootId=audio_root, title=Audio, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/audio_root, Root{userId=0, authority=com.android.providers.media.documents, rootId=documents_root, title=Documents, isUsb=false, isSd=false, isMtp=false} @ content://com.android.providers.media.documents/root/documents_root]
+10-24 23:40:55.484   524   524 D NotificationService: 0|com.google.android.documentsui|1|null|10083: granting content://settings/system/notification_sound
+10-24 23:40:55.485   524   524 I chatty  : uid=1000(system) Binder:524_3 identical 2 lines
+10-24 23:40:55.485   524   524 D NotificationService: 0|com.google.android.documentsui|1|null|10083: granting content://settings/system/notification_sound
+10-24 23:40:55.486   524   524 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+10-24 23:40:55.498   702   702 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.google.android.documentsui|1|null|10083
+10-24 23:40:55.498   702   702 D InterruptionStateProvider: No heads up: unimportant notification: 0|com.google.android.documentsui|1|null|10083
+10-24 23:40:56.485   524   543 D AutofillManagerService: Close system dialogs
+10-24 23:40:56.486   702   702 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{f018b61 I.E...... ......ID 0,0-1080,2340} canPanelBeCollapsed(): false
+10-24 23:40:56.487   524   546 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+10-24 23:40:56.487   524   544 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 0
+10-24 23:40:56.490   430   430 I perfetto: ing_service_impl.cc:758 Configured tracing session 111, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+10-24 23:40:56.490   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=111)
+10-24 23:40:56.514  1078  1078 D TaplTarget: Launcher.onNewIntent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10400100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras) }
+10-24 23:40:56.517   419   419 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+10-24 23:40:56.521   524   543 D AutofillManagerService: Close system dialogs
+10-24 23:40:56.523   524  1808 W ActivityManager: Unable to start service Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } U=0: not found
+10-24 23:40:56.524   524  1808 W RemoteAppPredictionService: could not bind to Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } using flags 67108865
+10-24 23:40:56.525   702   702 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{f018b61 I.E...... ......ID 0,0-1080,2340} canPanelBeCollapsed(): false
+10-24 23:40:56.502     0     0 W perfetto: enabled ftrace
+10-24 23:40:56.711  1753  2133 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+10-24 23:40:56.724  1753  1946 W LocationOracle: No location history returned by ContextManager
+10-24 23:40:56.741   524   552 D ArtManagerInternalImpl: /data/misc/iorapd/com.google.android.apps.nexuslauncher/821/com.google.android.apps.nexuslauncher.NexusLauncherActivity/compiled_traces/compiled_trace.pb doesn't exist
+10-24 23:40:56.754   524   546 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+10-24 23:40:56.781  1753  1962 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.googlequicksearchbox/files/sharedminusonemodule/shared/SharedMinusOneData.pb.tmp
+10-24 23:40:56.786  1753  1753 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+10-24 23:40:56.786  1078  1078 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@9f62c4a mOrientationHandler=PortraitPagedViewHandler@a8b97bb mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=true mFlags=299]
+10-24 23:40:56.786  1078  1078 I chatty  : uid=10154(com.google.android.apps.nexuslauncher) identical 2 lines
+10-24 23:40:56.786  1078  1078 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@9f62c4a mOrientationHandler=PortraitPagedViewHandler@a8b97bb mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=true mFlags=299]
+10-24 23:40:56.799  1193  2235 W GCoreFlp: No location to return for getLastLocation()
+10-24 23:40:56.814  1753  2133 I TngMinusOneSync: Syncing TNG:-1
+10-24 23:40:56.850  1078  1096 W System  : A resource failed to call release. 
+10-24 23:40:56.852  1078  1096 I chatty  : uid=10154(com.google.android.apps.nexuslauncher) FinalizerDaemon identical 4 lines
+10-24 23:40:56.852  1078  1096 W System  : A resource failed to call release. 
+10-24 23:40:58.682   524  1807 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:40:58.693   524  1807 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:41:00.004   702   702 D KeyguardClockSwitch: Updating clock: 1141
+10-24 23:41:00.213  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+10-24 23:41:00.214  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+10-24 23:41:01.494   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=111)
+10-24 23:41:01.495   430   430 I perfetto: ng_service_impl.cc:1948 Tracing session 111 ended, total sessions:0
+10-24 23:41:01.496   419   419 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+10-24 23:41:01.481     0     0 W perfetto: disabled ftrace
+10-24 23:41:01.836  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+10-24 23:41:01.837  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+10-24 23:41:05.353   524  1808 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+10-24 23:41:11.882  9339  9339 D sqlite3 : Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+10-24 23:41:11.882  9339  9339 D sqlite3 : I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+10-24 23:41:16.748   345   345 I android.hardware.vibrator-service.example: Vibrator reporting capabilities
+10-24 23:41:16.749   345   345 I android.hardware.vibrator-service.example: Vibrator off
+10-24 23:41:16.750   345   345 I android.hardware.vibrator-service.example: Vibrator perform
+10-24 23:41:16.751   345  9340 I android.hardware.vibrator-service.example: Starting perform on another thread
+10-24 23:41:16.755   524  6313 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:41:16.756   524  6313 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:41:16.842  1078  1099 D TaplEvents: Main / onOverviewToggle
+10-24 23:41:05.440   524  1808 I chatty  : uid=1000(system) Binder:524_15 identical 6 lines
+10-24 23:41:05.440   524  1808 W UriGrantsManagerService: No permission grants found for com.google.android.apps.photos
+10-24 23:41:16.844   524   543 D AutofillManagerService: Close system dialogs
+10-24 23:41:16.851   345  9340 I android.hardware.vibrator-service.example: Notifying perform complete
+10-24 23:41:16.852   345   345 I android.hardware.vibrator-service.example: Vibrator off
+10-24 23:41:16.856   702   702 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{f018b61 I.E...... ......ID 0,0-1080,2340} canPanelBeCollapsed(): false
+10-24 23:41:16.953   524  4165 D HostConnection: HostConnection::get() New Host Connection established 0xe7b332a0, tid 4165
+10-24 23:41:16.956   524  4165 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+10-24 23:41:16.956   524  4165 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+10-24 23:41:16.975   524  4165 D EGL_emulation: eglCreateContext: 0xe7b32f90: maj 2 min 0 rcv 2
+10-24 23:41:17.006   524  4165 D EGL_emulation: eglMakeCurrent: 0xe7b32f90: ver 2 0 (tinfo 0xaf7a0750) (first time)
+10-24 23:41:17.265  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=507.96387, y[0]=1668.8782, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4022900, downTime=4022900, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:17.385  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=547.9761, y[0]=902.92236, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4023020, downTime=4022900, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:17.553  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=601.9629, y[0]=1358.9539, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4023188, downTime=4023188, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:17.555  1078  1078 I AiAiSuggestUi: Clearing suggestions.
+10-24 23:41:17.557   524   546 I ActivityManager: Killing 9254:com.google.android.documentsui:com.android.documentsui.services/u0a83 (adj 915): remove task
+10-24 23:41:17.558   524   546 I ActivityManager: Killing 9105:com.google.android.documentsui/u0a83 (adj 905): remove task
+10-24 23:41:17.555  1078  1078 I AiAiSuggestUi: Clearing suggestions.
+10-24 23:41:17.564   297   297 I Zygote  : Process 9254 exited due to signal 9 (Killed)
+10-24 23:41:17.569   297   297 I Zygote  : Process 9105 exited due to signal 9 (Killed)
+10-24 23:41:17.553     0     0 I binder  : undelivered TRANSACTION_COMPLETE
+10-24 23:41:17.554     0     0 I binder  : undelivered transaction 801193, process died.
+10-24 23:41:17.557     0     0 I binder  : undelivered transaction 801179, process died.
+10-24 23:41:17.574   524  1807 W InputDispatcher: Attempted to unregister already unregistered input channel 'fe58e74 com.google.android.documentsui/com.android.documentsui.files.FilesActivity (server)'
+10-24 23:41:17.580   524   546 W ActivityManager: setHasOverlayUi called on unknown pid: 9105
+10-24 23:41:17.604   524   555 I libprocessgroup: Successfully killed process cgroup uid 10083 pid 9254 in 45ms
+10-24 23:41:17.604   524   555 I libprocessgroup: Successfully killed process cgroup uid 10083 pid 9105 in 0ms
+10-24 23:41:17.665  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=616.9592, y[0]=814.94385, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4023300, downTime=4023188, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:17.848  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=610.9607, y[0]=1304.8956, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4023484, downTime=4023484, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:17.945  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=613.95996, y[0]=699.9719, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4023580, downTime=4023484, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:18.056  8715  8715 I Dialer  : UiListener.onDetach - enter
+10-24 23:41:18.056  8715  8715 I Dialer  : UiListener.onDetach - enter
+10-24 23:41:18.056  8715  8715 I Dialer  : CallLogFragment.onDestroy - enter
+10-24 23:41:18.058   524   546 I ActivityManager: Killing 8715:com.android.dialer/u0a114 (adj 900): remove task
+10-24 23:41:18.061  1078  1078 I AiAiSuggestUi: Clearing suggestions.
+10-24 23:41:18.071   524  3622 I WindowManager: WIN DEATH: Window{e9f4c59 u0 com.android.dialer/com.android.dialer.main.impl.MainActivity}
+10-24 23:41:18.061  1078  1078 I AiAiSuggestUi: Clearing suggestions.
+10-24 23:41:18.071   524  3622 W InputDispatcher: Attempted to unregister already unregistered input channel 'e9f4c59 com.android.dialer/com.android.dialer.main.impl.MainActivity (server)'
+10-24 23:41:18.079   524   546 W ActivityManager: setHasOverlayUi called on unknown pid: 8715
+10-24 23:41:18.082   297   297 I Zygote  : Process 8715 exited due to signal 9 (Killed)
+10-24 23:41:18.105   524   555 I libprocessgroup: Successfully killed process cgroup uid 10114 pid 8715 in 45ms
+10-24 23:41:18.209  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=581.9568, y[0]=974.9048, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4023844, downTime=4023844, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:18.297  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=613.95996, y[0]=280.9314, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4023932, downTime=4023844, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:18.664  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=662.97, y[0]=1143.9349, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4024300, downTime=4024300, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:18.666   524   546 I ActivityManager: Killing 8326:com.google.android.apps.messaging/u0a134 (adj 900): remove task
+10-24 23:41:18.666  1078  1078 I AiAiSuggestUi: Clearing suggestions.
+10-24 23:41:18.666  1078  1078 I AiAiSuggestUi: Clearing suggestions.
+10-24 23:41:18.679   297   297 I Zygote  : Process 8326 exited due to signal 9 (Killed)
+10-24 23:41:18.679   524  3622 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=40, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10134 AdministratorUids: [] RequestorUid: 10134 RequestorPackageName: com.google.android.apps.messaging] ], android.os.BinderProxy@ca98fef)
+10-24 23:41:18.679   524   636 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=40, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10134 AdministratorUids: [] RequestorUid: 10134 RequestorPackageName: com.google.android.apps.messaging] ] (release request)
+10-24 23:41:18.680   524   539 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=41, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10134 AdministratorUids: [] RequestorUid: 10134 RequestorPackageName: com.google.android.apps.messaging] ], android.os.BinderProxy@fe74afc)
+10-24 23:41:18.682   524   546 W ActivityManager: setHasOverlayUi called on unknown pid: 8326
+10-24 23:41:18.685   702   702 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+10-24 23:41:18.686   942   942 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+10-24 23:41:18.686   942   942 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+10-24 23:41:18.686   702   702 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@3fb488e mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+10-24 23:41:18.713   524   555 I libprocessgroup: Successfully killed process cgroup uid 10134 pid 8326 in 45ms
+10-24 23:41:18.769  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=731.9531, y[0]=427.96692, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4024404, downTime=4024300, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:18.941  1078  1078 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@9f62c4a mOrientationHandler=PortraitPagedViewHandler@a8b97bb mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=true mFlags=299]
+10-24 23:41:18.941  1078  1078 I chatty  : uid=10154(com.google.android.apps.nexuslauncher) identical 2 lines
+10-24 23:41:18.941  1078  1078 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@9f62c4a mOrientationHandler=PortraitPagedViewHandler@a8b97bb mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=true mFlags=299]
+10-24 23:41:19.089  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=501.96533, y[0]=1152.9327, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4024724, downTime=4024724, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:19.186  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=553.9746, y[0]=470.95642, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4024820, downTime=4024724, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:19.841  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=360.9668, y[0]=1069.953, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4025476, downTime=4025476, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:19.937  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=360.9668, y[0]=1069.953, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4025573, downTime=4025476, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:19.955  1078  1078 D TaplEvents: Main / start: startAppShortcutOrInfoActivity
+10-24 23:41:19.957   524   538 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.dialer/.main.impl.MainActivity bnds=[238,965][439,1276]} from uid 10154
+10-24 23:41:19.957   524   546 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+10-24 23:41:19.961   430   430 I perfetto: ing_service_impl.cc:758 Configured tracing session 112, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+10-24 23:41:19.961   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=112)
+10-24 23:41:19.963   524   546 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10114; state: DISABLED
+10-24 23:41:19.963   524   524 W ActivityManager: Unable to start service Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } U=0: not found
+10-24 23:41:19.963   524   524 W RemoteAppPredictionService: could not bind to Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } using flags 67108865
+10-24 23:41:19.963   524   554 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10114; state: DISABLED
+10-24 23:41:19.987   392   464 D AudioFlinger: mixer(0xedd13030) throttle end: throttle time(36)
+10-24 23:41:19.979     0     0 W perfetto: enabled ftrace
+10-24 23:41:19.990   297   297 D Zygote  : Forked child process 9350
+10-24 23:41:19.992   524   554 I ActivityManager: Start proc 9350:com.android.dialer/u0a114 for pre-top-activity {com.android.dialer/com.android.dialer.main.impl.MainActivity}
+10-24 23:41:19.994   419   419 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+10-24 23:41:19.997  9350  9350 W .android.diale: Unexpected CPU variant for X86 using defaults: x86
+10-24 23:41:20.002  4518  4524 I adbd    : jdwp connection from 9350
+10-24 23:41:20.032  9350  9350 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+10-24 23:41:20.032  9350  9350 I .android.diale: The ClassLoaderContext is a special shared library.
+10-24 23:41:20.034  9350  9350 I .android.diale: The ClassLoaderContext is a special shared library.
+10-24 23:41:20.034  9350  9350 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/priv-app/Dialer/lib/x86:/product/lib:/system/product/lib
+10-24 23:41:20.038  9350  9350 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-24 23:41:20.039  9350  9350 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-24 23:41:20.054  9350  9350 I Dialer  : DialerExecutorModule.newThread - creating low priority thread
+10-24 23:41:20.058  9350  9350 I Dialer  : CallLogConfigImpl.schedulePollingJob - scheduling
+10-24 23:41:20.062  9350  9350 I Dialer  : DialerApplication.initializeAnnotatedCallLog - framework not enabled
+10-24 23:41:20.074  9350  9379 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+10-24 23:41:20.075  9350  9379 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+10-24 23:41:20.077  9350  9379 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+10-24 23:41:20.090  9350  9350 I Dialer  : MainActivity.onCreate - enter
+10-24 23:41:20.090  9350  9350 I Dialer  : OldMainActivityPeer.onActivityCreate - enter
+10-24 23:41:20.129  9350  9350 I Dialer  : UiListener.create - creating new UiListener for Query last phone number
+10-24 23:41:20.129  9350  9350 I Dialer  : UiListener.create - creating new UiListener for Missed call observer
+10-24 23:41:20.138   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.138   524   631 I Telecom : PhoneAccountRegistrar: getSimCallManager: SimCallManager for subId 1 queried, returning: null: TSI.gDOPA@DZo
+10-24 23:41:20.140   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:20.146  9350  9350 I Dialer  : VoicemailModule.provideVoicemailClient - providing VoicemailClientImpl
+10-24 23:41:20.154   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.156  9350  9350 I Dialer  : OldMainActivityPeer.canVoicemailTabBeShown - Voicemail is enabled
+10-24 23:41:20.156  9350  9350 I Dialer  : OldMainActivityPeer.showVoicemail - showing Tab:true
+10-24 23:41:20.156   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:20.158  9350  9350 I Dialer  : OldMainActivityPeer.onHandleIntent - Show last tab
+10-24 23:41:20.159  9350  9350 I Dialer  : MainBottomNavBarBottomNavTabListener.onCallLogSelected - enter
+10-24 23:41:20.160  9350  9350 I Dialer  : MainBottomNavBarBottomNavTabListener.showFragment - enter
+10-24 23:41:20.160  9350  9350 I Dialer  : MainBottomNavBarBottomNavTabListener.showFragment - Not added yet: CallLogFragment{c63fe6a}
+10-24 23:41:20.165  9350  9350 I Dialer  : CallLogFragment.onCreate - enter
+10-24 23:41:20.171   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.173   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:20.175  9350  9350 I Dialer  : CallLogFragment.onActivityCreated - enter
+10-24 23:41:20.178  9350  9350 W Dialer  : CountryDetector.registerForLocationUpdates - no location permissions, not registering for location updates
+10-24 23:41:20.187   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.189   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:20.199  9350  9350 I Dialer  : CallLogFragment.onStart - enter
+10-24 23:41:20.200  9350  9350 I Dialer  : MainBottomNavBarBottomNavTabListener.onActivityResume - enter
+10-24 23:41:20.200  9350  9350 I Dialer  : MainCallLogFragmentListener.onActivityResume - enter
+10-24 23:41:20.200  9350  9350 I Dialer  : MainCallLogFragmentListener.registerVoicemailStatusContentObserver - enter
+10-24 23:41:20.200  9350  9350 I Dialer  : MainCallLogFragmentListener.registerVoicemailStatusContentObserver - register
+10-24 23:41:20.204   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.206   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:20.214  9350  9350 I Dialer  : CallLogQueryHandler.fetchVoicemailStatus - fetching voicemail status
+10-24 23:41:20.215  9350  9350 I Dialer  : DialerExecutorModule.newThread - creating low priority thread
+10-24 23:41:20.216  9350  9381 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - enter
+10-24 23:41:20.221   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.222  9350  9381 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - last updated at 0
+10-24 23:41:20.224   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:20.224  9350  9350 I Dialer  : CallLogFragment.onResume - enter
+10-24 23:41:20.237   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.239   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:20.247  9350  9350 I Dialer  : CallLogQueryHandler.fetchVoicemailStatus - fetching voicemail status
+10-24 23:41:20.253  9350  9350 I Dialer  : CallLogFragment.onPageSelected - enter
+10-24 23:41:20.253  9350  9350 I Dialer  : MainCallLogHost.enableFloatingButton - enabled: true
+10-24 23:41:20.256   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.258   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:20.270   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.273   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:20.287   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.289  9350  9381 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - broadcasting smart dial update
+10-24 23:41:20.290   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:20.299   524   538 I Telecom : PhoneAccountRegistrar: getSimCallManager: SimCallManager for subId 1 queried, returning: null: TSI.gDOPA@Dbc
+10-24 23:41:20.303  9350  9350 W UnsafeUtil: platform method missing - proto runtime falling back to safer methods: java.lang.NoSuchMethodException: sun.misc.Unsafe.copyMemory [class java.lang.Object, long, class java.lang.Object, long, long]
+10-24 23:41:20.304   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.306   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:20.315   524  3832 I Telecom : PhoneAccountRegistrar: getSimCallManager: SimCallManager for subId 1 queried, returning: null: TSI.gDOPA@Dbw
+10-24 23:41:20.322   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.324   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:20.325   524  3832 I Telecom : PhoneAccountRegistrar: getSimCallManager: SimCallManager for subId 1 queried, returning: null: TSI.gDOPA@DcA
+10-24 23:41:20.337   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.374  9350  9377 D HostConnection: HostConnection::get() New Host Connection established 0xe7b26d50, tid 9377
+10-24 23:41:20.375   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:20.378  9350  9377 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+10-24 23:41:20.382   183   183 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+10-24 23:41:20.383  9350  9377 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+10-24 23:41:20.387   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.402  9350  9377 D EGL_emulation: eglCreateContext: 0xe7b27290: maj 2 min 0 rcv 2
+10-24 23:41:20.427  9350  9377 D EGL_emulation: eglMakeCurrent: 0xe7b27290: ver 2 0 (tinfo 0xe7e79170) (first time)
+10-24 23:41:20.429   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:20.431   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.436   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:20.437   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.460   183   183 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+10-24 23:41:20.460  9350  9377 I Gralloc4: mapper 4.x is not supported
+10-24 23:41:20.460   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:20.465  9350  9377 D HostConnection: createUnique: call
+10-24 23:41:20.466  9350  9377 D HostConnection: HostConnection::get() New Host Connection established 0xe7b27840, tid 9377
+10-24 23:41:20.467   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.470   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:20.472  9350  9377 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+10-24 23:41:20.477   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.480   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:20.487   314   371 W EmuHWC2 : validate: layer 289 CompositionType 1, fallback
+10-24 23:41:20.521   314   371 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:20.609   524   546 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+10-24 23:41:20.612  9350  9350 I Dialer  : OldMainActivityPeer.MainCallLogFragmentListener - onVoicemailStatusFetched
+10-24 23:41:20.612  9350  9350 I Dialer  : OldMainActivityPeer.onVoicemailStatusFetched - hasActiveVoicemailProvider:true, number of active voicemail sources:1
+10-24 23:41:20.612  9350  9350 I Dialer  : OldMainActivityPeer.showVoicemail - showing Tab:true
+10-24 23:41:20.614   524   552 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.dialer/2900000/com.android.dialer.main.impl.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+10-24 23:41:20.618   524   552 I ActivityTaskManager: Displayed com.android.dialer/.main.impl.MainActivity: +650ms
+10-24 23:41:20.644  9350  9350 I Dialer  : ContactPhotoManagerImpl.ContactPhotoManagerImpl - cache adj: 1.0
+10-24 23:41:20.973  1753  8654 I PBSessionCacheImpl: Deleted sessionId[7711536854049051] from persistence.
+10-24 23:41:20.983  1753  2133 W SearchServiceCore: Abort, client detached.
+10-24 23:41:23.587   524  4080 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:41:23.597   524  4080 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:41:24.939  9390  9390 D sqlite3 : Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+10-24 23:41:24.939  9390  9390 D sqlite3 : I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+10-24 23:41:24.964   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=112)
+10-24 23:41:24.966   430   430 I perfetto: ng_service_impl.cc:1948 Tracing session 112 ended, total sessions:0
+10-24 23:41:24.966   419   419 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+10-24 23:41:24.967   439  9346 I iorapd  : Perfetto TraceBuffer saved to file: /data/misc/iorapd/com.android.dialer/2900000/com.android.dialer.main.impl.MainActivity/raw_traces/1761324084967443700.perfetto_trace.pb
+10-24 23:41:24.951     0     0 W perfetto: disabled ftrace
+10-24 23:41:25.388  1325  9392 I GmscoreIpa: Starting mediastore instant index
+10-24 23:41:25.721  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+10-24 23:41:25.722  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+10-24 23:41:27.117  1078  1099 D TaplEvents: Main / onOverviewToggle
+10-24 23:41:27.119   524   543 D AutofillManagerService: Close system dialogs
+10-24 23:41:27.120   702   702 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{f018b61 I.E...... ......ID 0,0-1080,2340} canPanelBeCollapsed(): false
+10-24 23:41:27.120   524   546 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+10-24 23:41:27.120   524  1804 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 pkg=com.google.android.apps.nexuslauncher cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 10154
+10-24 23:41:27.123   430   430 I perfetto: ing_service_impl.cc:758 Configured tracing session 113, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+10-24 23:41:27.124   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=113)
+10-24 23:41:27.126  9350  9350 I Dialer  : CallLogFragment.onPause - enter
+10-24 23:41:27.127  9350  9350 I Dialer  : CallLogFragment.onPageUnselected - enter
+10-24 23:41:27.127  9350  9350 I Dialer  : MainSearchController.onActivityPause - enter
+10-24 23:41:27.129  1078  1078 D TaplTarget: Launcher.onNewIntent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10400000 pkg=com.google.android.apps.nexuslauncher cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras) }
+10-24 23:41:27.131  1078  1078 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@9f62c4a mOrientationHandler=PortraitPagedViewHandler@a8b97bb mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=true mFlags=299]
+10-24 23:41:27.150   524   538 W ActivityManager: Unable to start service Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } U=0: not found
+10-24 23:41:27.150   524   538 W RemoteAppPredictionService: could not bind to Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } using flags 67108865
+10-24 23:41:27.164     0     0 W perfetto: enabled ftrace
+10-24 23:41:27.131  1078  1078 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@9f62c4a mOrientationHandler=PortraitPagedViewHandler@a8b97bb mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=true mFlags=299]
+10-24 23:41:27.188   419   419 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+10-24 23:41:27.290  1753  2133 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+10-24 23:41:27.294  1753  1946 W LocationOracle: No location history returned by ContextManager
+10-24 23:41:27.338  1078  1078 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@f2a1194 mOrientationHandler=PortraitPagedViewHandler@a8b97bb mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=true mFlags=43]
+10-24 23:41:27.338  1078  1078 I chatty  : uid=10154(com.google.android.apps.nexuslauncher) identical 2 lines
+10-24 23:41:27.338  1078  1078 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@f2a1194 mOrientationHandler=PortraitPagedViewHandler@a8b97bb mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=true mFlags=43]
+10-24 23:41:27.350   524   546 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+10-24 23:41:27.360   524   552 D ArtManagerInternalImpl: /data/misc/iorapd/com.google.android.apps.nexuslauncher/821/com.google.android.apps.nexuslauncher.NexusLauncherActivity/compiled_traces/compiled_trace.pb doesn't exist
+10-24 23:41:27.363  1753  1753 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+10-24 23:41:27.387  1753  1962 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.googlequicksearchbox/files/sharedminusonemodule/shared/SharedMinusOneData.pb.tmp
+10-24 23:41:27.399   314   314 W EmuHWC2 : validate: layer 290 CompositionType 1, fallback
+10-24 23:41:27.402   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:27.403  1193  2235 W GCoreFlp: No location to return for getLastLocation()
+10-24 23:41:27.405  1753  2133 I TngMinusOneSync: Syncing TNG:-1
+10-24 23:41:27.421   314   314 W EmuHWC2 : validate: layer 290 CompositionType 1, fallback
+10-24 23:41:27.425   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:27.438   314   314 W EmuHWC2 : validate: layer 290 CompositionType 1, fallback
+10-24 23:41:27.442   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:27.455   314   314 W EmuHWC2 : validate: layer 290 CompositionType 1, fallback
+10-24 23:41:27.457   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:27.472   314   314 W EmuHWC2 : validate: layer 290 CompositionType 1, fallback
+10-24 23:41:27.475   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:27.487   314   314 W EmuHWC2 : validate: layer 290 CompositionType 1, fallback
+10-24 23:41:27.490   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:27.505   314   314 W EmuHWC2 : validate: layer 290 CompositionType 1, fallback
+10-24 23:41:27.507   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:27.521   314   314 W EmuHWC2 : validate: layer 290 CompositionType 1, fallback
+10-24 23:41:27.523   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:27.537   314   314 W EmuHWC2 : validate: layer 290 CompositionType 1, fallback
+10-24 23:41:27.539   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:27.554   314   314 W EmuHWC2 : validate: layer 290 CompositionType 1, fallback
+10-24 23:41:27.556   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:27.572   314   314 W EmuHWC2 : validate: layer 290 CompositionType 1, fallback
+10-24 23:41:27.574   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:27.587   314   314 W EmuHWC2 : validate: layer 290 CompositionType 1, fallback
+10-24 23:41:27.589   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:27.604   380   380 E Layer   : [Surface(name=Task=66)/@0x54c4e56 - animation-leash#0] No local sync point found
+10-24 23:41:27.604   380   380 E Layer   : [Surface(name=Task=66)/@0x54c4e56 - animation-leash#0] No local sync point found
+10-24 23:41:27.604   380   380 E Layer   : [Surface(name=Task=1)/@0xc554124 - animation-leash#0] No local sync point found
+10-24 23:41:27.604   380   380 E Layer   : [Surface(name=Task=1)/@0xc554124 - animation-leash#0] No local sync point found
+10-24 23:41:27.614  1078  1078 I AiAiSuggestUi: Clearing suggestions.
+10-24 23:41:27.638   524  4228 D HostConnection: HostConnection::get() New Host Connection established 0xaf181200, tid 4228
+10-24 23:41:27.642   524  4228 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+10-24 23:41:27.643   524  4228 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+10-24 23:41:27.663   524  4228 D EGL_emulation: eglCreateContext: 0xaf1830a0: maj 2 min 0 rcv 2
+10-24 23:41:27.667  9350  9350 I Dialer  : CallLogFragment.onStop - enter
+10-24 23:41:27.670  9350  9350 I Dialer  : CallLogNotificationsService.cancelAllMissedCalls - enter
+10-24 23:41:27.671  9350  9350 I Dialer  : NonUiTaskBuilder.newThread - creating serial thread
+10-24 23:41:27.673  9350  9350 I Dialer  : CallLogAdapter.onSaveInstanceState - saved: 0, selectedItemsSize:0
+10-24 23:41:27.674  9350  9399 I Dialer  : CallLogNotificationsService.cancelAllMissedCallsBackground - enter
+10-24 23:41:27.694   524  4228 D EGL_emulation: eglMakeCurrent: 0xaf1830a0: ver 2 0 (tinfo 0xaf7af6d0) (first time)
+10-24 23:41:27.694   524   538 W Telecom : MissedCallNotifierImpl: Showing missed calls through default dialer.: TSI.cMCN@DeE
+10-24 23:41:27.706  9350  9350 I Dialer  : MissedCallNotificationReceiver.onReceive - enter
+10-24 23:41:27.709  9350  9350 I Dialer  : DialerExecutorModule.newThread - creating low priority thread
+10-24 23:41:27.725  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=817.9431, y[0]=1613.8916, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4033348, downTime=4033348, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:27.727  9350  9400 I Dialer  : MissedCallNotifier.updateMissedCallNotification - enter
+10-24 23:41:27.761  9350  9350 I Dialer  : MissedCallNotificationReceiver.onReceive - update missed call notifications successful
+10-24 23:41:27.766  9350  9350 I Dialer  : MissedCallNotificationReceiver.updateBadgeCount - update badge count: 0 success: false
+10-24 23:41:27.814   524   535 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.AlarmManagerService$2
+10-24 23:41:27.814   524   535 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+10-24 23:41:27.818   524   535 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.AlarmManagerService$2
+10-24 23:41:27.818   524   535 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+10-24 23:41:27.819   524   535 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.AlarmManagerService$2
+10-24 23:41:27.820   524   535 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+10-24 23:41:27.833  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=831.9507, y[0]=811.9446, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4033468, downTime=4033348, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:27.938  1078  1078 I AiAiSuggestUi: Clearing suggestions.
+10-24 23:41:27.938  1078  1078 I AiAiSuggestUi: Clearing suggestions.
+10-24 23:41:27.939  9350  9350 I Dialer  : UiListener.onDetach - enter
+10-24 23:41:27.939  9350  9350 I Dialer  : UiListener.onDetach - enter
+10-24 23:41:27.939  9350  9350 I Dialer  : CallLogFragment.onDestroy - enter
+10-24 23:41:27.941   524   546 I ActivityManager: Killing 9350:com.android.dialer/u0a114 (adj 905): remove task
+10-24 23:41:27.953   297   297 I Zygote  : Process 9350 exited due to signal 9 (Killed)
+10-24 23:41:27.937     0     0 I binder  : undelivered TRANSACTION_COMPLETE
+10-24 23:41:27.938     0     0 I binder  : undelivered transaction 810639, process died.
+10-24 23:41:27.957   524   631 W InputDispatcher: Attempted to unregister already unregistered input channel '4a73219 com.android.dialer/com.android.dialer.main.impl.MainActivity (server)'
+10-24 23:41:27.982   524   546 W ActivityManager: setHasOverlayUi called on unknown pid: 9350
+10-24 23:41:27.985   524   555 I libprocessgroup: Successfully killed process cgroup uid 10114 pid 9350 in 42ms
+10-24 23:41:28.213  1078  1078 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@9f62c4a mOrientationHandler=PortraitPagedViewHandler@a8b97bb mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=true mFlags=299]
+10-24 23:41:28.213  1078  1078 I chatty  : uid=10154(com.google.android.apps.nexuslauncher) identical 2 lines
+10-24 23:41:28.213  1078  1078 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@9f62c4a mOrientationHandler=PortraitPagedViewHandler@a8b97bb mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=true mFlags=299]
+10-24 23:41:29.686  9404  9404 D sqlite3 : Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+10-24 23:41:29.686  9404  9404 D sqlite3 : I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+10-24 23:41:30.205   524  1804 D WifiNl80211Manager: Scan result ready event
+10-24 23:41:30.205   524  1804 D WifiNative: Scan result ready event
+10-24 23:41:30.977  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=911.94214, y[0]=1321.8915, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4036611, downTime=4036611, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:31.057  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=911.94214, y[0]=1321.8915, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4036693, downTime=4036611, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:31.385  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=690.95215, y[0]=1622.8894, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4037020, downTime=4037020, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:31.457  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=693.9514, y[0]=1327.89, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4037093, downTime=4037020, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:32.129   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=113)
+10-24 23:41:32.130   430   430 I perfetto: ng_service_impl.cc:1948 Tracing session 113 ended, total sessions:0
+10-24 23:41:32.131   419   419 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+10-24 23:41:32.116     0     0 W perfetto: disabled ftrace
+10-24 23:41:32.305  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=323.98682, y[0]=1072.9523, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4037940, downTime=4037940, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:32.378  1078  1078 D TaplEvents: Main / Touch event: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=323.98682, y[0]=1072.9523, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=4038013, downTime=4037940, deviceId=8, source=0x5002, displayId=0 }
+10-24 23:41:32.389  1078  1078 D TaplEvents: Main / start: startAppShortcutOrInfoActivity
+10-24 23:41:32.390   524   538 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.dialer/.main.impl.MainActivity bnds=[238,965][439,1276]} from uid 10154
+10-24 23:41:32.390   524   546 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+10-24 23:41:32.393   430   430 I perfetto: ing_service_impl.cc:758 Configured tracing session 114, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+10-24 23:41:32.393   524  1804 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:41:32.400   524   546 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10114; state: DISABLED
+10-24 23:41:32.400   524   524 W ActivityManager: Unable to start service Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } U=0: not found
+10-24 23:41:32.400   524   524 W RemoteAppPredictionService: could not bind to Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } using flags 67108865
+10-24 23:41:32.400   524   554 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10114; state: DISABLED
+10-24 23:41:32.394   524  1804 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:41:32.429  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+10-24 23:41:32.430  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+10-24 23:41:32.435   297   297 D Zygote  : Forked child process 9411
+10-24 23:41:32.440  9411  9411 W .android.diale: Unexpected CPU variant for X86 using defaults: x86
+10-24 23:41:32.441   524   554 I ActivityManager: Start proc 9411:com.android.dialer/u0a114 for pre-top-activity {com.android.dialer/com.android.dialer.main.impl.MainActivity}
+10-24 23:41:32.454  4518  4524 I adbd    : jdwp connection from 9411
+10-24 23:41:32.467  9411  9411 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+10-24 23:41:32.473  9411  9411 I .android.diale: The ClassLoaderContext is a special shared library.
+10-24 23:41:32.474  9411  9411 I .android.diale: The ClassLoaderContext is a special shared library.
+10-24 23:41:32.475  9411  9411 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/priv-app/Dialer/lib/x86:/product/lib:/system/product/lib
+10-24 23:41:32.479  9411  9411 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-24 23:41:32.479  9411  9411 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-24 23:41:32.491  9411  9411 I Dialer  : DialerExecutorModule.newThread - creating low priority thread
+10-24 23:41:32.497  9411  9411 I Dialer  : CallLogConfigImpl.schedulePollingJob - scheduling
+10-24 23:41:32.500  9411  9411 I Dialer  : DialerApplication.initializeAnnotatedCallLog - framework not enabled
+10-24 23:41:32.512   419   419 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=114)
+10-24 23:41:32.518  9411  9440 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+10-24 23:41:32.527  9411  9411 I Dialer  : MainActivity.onCreate - enter
+10-24 23:41:32.527  9411  9411 I Dialer  : OldMainActivityPeer.onActivityCreate - enter
+10-24 23:41:32.515     0     0 W perfetto: enabled ftrace
+10-24 23:41:32.531   419   419 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+10-24 23:41:32.532  9411  9440 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+10-24 23:41:32.534  9411  9440 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+10-24 23:41:32.567  1078  1096 W System  : A resource failed to call release. 
+10-24 23:41:32.569  1078  1096 I chatty  : uid=10154(com.google.android.apps.nexuslauncher) FinalizerDaemon identical 3 lines
+10-24 23:41:32.569  1078  1096 W System  : A resource failed to call release. 
+10-24 23:41:32.577  9411  9411 I Dialer  : UiListener.create - creating new UiListener for Query last phone number
+10-24 23:41:32.577  9411  9411 I Dialer  : UiListener.create - creating new UiListener for Missed call observer
+10-24 23:41:32.587   524  1804 I Telecom : PhoneAccountRegistrar: getSimCallManager: SimCallManager for subId 1 queried, returning: null: TSI.gDOPA@DeY
+10-24 23:41:32.587   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.589   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:32.599  9411  9411 I Dialer  : VoicemailModule.provideVoicemailClient - providing VoicemailClientImpl
+10-24 23:41:32.604   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.605  9411  9411 I Dialer  : OldMainActivityPeer.canVoicemailTabBeShown - Voicemail is enabled
+10-24 23:41:32.605  9411  9411 I Dialer  : OldMainActivityPeer.showVoicemail - showing Tab:true
+10-24 23:41:32.606   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:32.608  9411  9411 I Dialer  : OldMainActivityPeer.onHandleIntent - Show last tab
+10-24 23:41:32.608  9411  9411 I Dialer  : MainBottomNavBarBottomNavTabListener.onCallLogSelected - enter
+10-24 23:41:32.609  9411  9411 I Dialer  : MainBottomNavBarBottomNavTabListener.showFragment - enter
+10-24 23:41:32.609  9411  9411 I Dialer  : MainBottomNavBarBottomNavTabListener.showFragment - Not added yet: CallLogFragment{c63fe6a}
+10-24 23:41:32.615  9411  9411 I Dialer  : CallLogFragment.onCreate - enter
+10-24 23:41:32.620   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.623   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:32.625  9411  9411 I Dialer  : CallLogFragment.onActivityCreated - enter
+10-24 23:41:32.630  9411  9411 W Dialer  : CountryDetector.registerForLocationUpdates - no location permissions, not registering for location updates
+10-24 23:41:32.637   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.639   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:32.645  9411  9411 I Dialer  : CallLogFragment.onStart - enter
+10-24 23:41:32.646  9411  9411 I Dialer  : MainBottomNavBarBottomNavTabListener.onActivityResume - enter
+10-24 23:41:32.647  9411  9411 I Dialer  : MainCallLogFragmentListener.onActivityResume - enter
+10-24 23:41:32.647  9411  9411 I Dialer  : MainCallLogFragmentListener.registerVoicemailStatusContentObserver - enter
+10-24 23:41:32.647  9411  9411 I Dialer  : MainCallLogFragmentListener.registerVoicemailStatusContentObserver - register
+10-24 23:41:32.655   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.658   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:32.659  9411  9411 I Dialer  : CallLogQueryHandler.fetchVoicemailStatus - fetching voicemail status
+10-24 23:41:32.661  9411  9411 I Dialer  : DialerExecutorModule.newThread - creating low priority thread
+10-24 23:41:32.662  9411  9442 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - enter
+10-24 23:41:32.671   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.673   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:32.679  9411  9411 I Dialer  : CallLogFragment.onResume - enter
+10-24 23:41:32.679  9411  9442 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - last updated at 0
+10-24 23:41:32.687   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.689   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:32.700  9411  9411 I Dialer  : CallLogQueryHandler.fetchVoicemailStatus - fetching voicemail status
+10-24 23:41:32.701  9411  9411 I Dialer  : CallLogFragment.onPageSelected - enter
+10-24 23:41:32.701  9411  9411 I Dialer  : MainCallLogHost.enableFloatingButton - enabled: true
+10-24 23:41:32.704   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.706   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:32.715  9411  9442 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - broadcasting smart dial update
+10-24 23:41:32.718  9411  9411 I Dialer  : OldMainActivityPeer.MainCallLogFragmentListener - onVoicemailStatusFetched
+10-24 23:41:32.718  9411  9411 I Dialer  : OldMainActivityPeer.onVoicemailStatusFetched - hasActiveVoicemailProvider:true, number of active voicemail sources:1
+10-24 23:41:32.718  9411  9411 I Dialer  : OldMainActivityPeer.showVoicemail - showing Tab:true
+10-24 23:41:32.720   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.722   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:32.737   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.739   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:32.755   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.757   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:32.766   524  1167 I Telecom : PhoneAccountRegistrar: getSimCallManager: SimCallManager for subId 1 queried, returning: null: TSI.gDOPA@DhE
+10-24 23:41:32.772   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.772  9411  9411 W UnsafeUtil: platform method missing - proto runtime falling back to safer methods: java.lang.NoSuchMethodException: sun.misc.Unsafe.copyMemory [class java.lang.Object, long, class java.lang.Object, long, long]
+10-24 23:41:32.776   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:32.787   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.790   524  1167 I Telecom : PhoneAccountRegistrar: getSimCallManager: SimCallManager for subId 1 queried, returning: null: TSI.gDOPA@DhU
+10-24 23:41:32.791   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:32.803   524  1804 I Telecom : PhoneAccountRegistrar: getSimCallManager: SimCallManager for subId 1 queried, returning: null: TSI.gDOPA@Dho
+10-24 23:41:32.806   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.807   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:32.836   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.836  9411  9438 D HostConnection: HostConnection::get() New Host Connection established 0xe7b27fb0, tid 9438
+10-24 23:41:32.838   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:32.839  9411  9438 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+10-24 23:41:32.841   183   183 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+10-24 23:41:32.841  9411  9438 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+10-24 23:41:32.854   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.861  9411  9438 D EGL_emulation: eglCreateContext: 0xe7b2a160: maj 2 min 0 rcv 2
+10-24 23:41:32.896  9411  9438 D EGL_emulation: eglMakeCurrent: 0xe7b2a160: ver 2 0 (tinfo 0xe7e79670) (first time)
+10-24 23:41:32.897   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:32.904   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.906   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:32.920   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.930   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81390
+10-24 23:41:32.936   183   183 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+10-24 23:41:32.936  9411  9438 I Gralloc4: mapper 4.x is not supported
+10-24 23:41:32.937   314   314 W EmuHWC2 : validate: layer 293 CompositionType 1, fallback
+10-24 23:41:32.938  9411  9438 D HostConnection: createUnique: call
+10-24 23:41:32.938  9411  9438 D HostConnection: HostConnection::get() New Host Connection established 0xe7b29980, tid 9438
+10-24 23:41:32.940   314   314 W EmuHWC2 : No layers, exit, buffer 0xf3f81090
+10-24 23:41:32.944  9411  9438 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+10-24 23:41:32.997   380   380 E Layer   : [Surface(name=Task=1)/@0xc554124 - animation-leash#0] No local sync point found
+10-24 23:41:32.997   380   380 E Layer   : [Surface(name=Task=67)/@0x6188921 - animation-leash#0] No local sync point found
+10-24 23:41:33.065   524   546 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+10-24 23:41:33.068   524   552 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.dialer/2900000/com.android.dialer.main.impl.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+10-24 23:41:33.072  9411  9411 I Dialer  : ContactPhotoManagerImpl.ContactPhotoManagerImpl - cache adj: 1.0
+10-24 23:41:33.079   524   552 I ActivityTaskManager: Displayed com.android.dialer/.main.impl.MainActivity: +671ms
+10-24 23:41:33.154  1753  8654 I PBSessionCacheImpl: Deleted sessionId[7711536854049054] from persistence.
+10-24 23:41:33.166  1753  2133 W SearchServiceCore: Abort, client detached.
+10-24 23:41:35.171   345   345 I android.hardware.vibrator-service.example: Vibrator reporting capabilities
+10-24 23:41:35.171   345   345 I android.hardware.vibrator-service.example: Vibrator off
+10-24 23:41:35.172   345   345 I android.hardware.vibrator-service.example: Vibrator perform
+10-24 23:41:35.172   524  1804 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+10-24 23:41:35.178   181   181 I servicemanager: Found android.hardware.vibrator.IVibrator/default in device VINTF manifest.
+10-24 23:41:35.179   345   345 I android.hardware.vibrator-service.example: Vibrator perform
+10-24 23:41:35.180   524  1804 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+10-24 23:41:35.180   181   181 I servicemanager: Found android.hardware.vibrator.IVibrator/default in device VINTF manifest.
+10-24 23:41:35.182   345   345 I android.hardware.vibrator-service.example: Vibrator on for timeoutMs: 1
+10-24 23:41:35.183   345   345 I android.hardware.vibrator-service.example: Vibrator set amplitude: 1
+10-24 23:41:35.207   345   345 I android.hardware.vibrator-service.example: Vibrator on for timeoutMs: 21
+10-24 23:41:35.207   345   345 I android.hardware.vibrator-service.example: Vibrator set amplitude: 1
+10-24 23:41:35.229   345   345 I android.hardware.vibrator-service.example: Vibrator off
+10-24 23:41:36.006   524  1167 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:41:36.019   524  1167 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:41:36.716   524  1804 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:41:36.716   524  1804 I chatty  : uid=1000(system) Binder:524_12 identical 1 line
+10-24 23:41:36.717   524  1804 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:41:36.718   392   464 D AudioFlinger: mixer(0xedd13030) throttle end: throttle time(37)
+10-24 23:41:37.044  9411  9438 D OpenGLRenderer: endAllActiveAnimators on 0xe17247b0 (MenuPopupWindow$MenuDropDownListView) with handle 0xe7e7ae30
+10-24 23:41:37.381     0     0 W perfetto: disabled ftrace
+10-24 23:41:37.395   419   419 I perfetto: probes_producer.cc:329  Producer stop (id=114)
+10-24 23:41:37.396   439  9406 I iorapd  : Perfetto TraceBuffer saved to file: /data/misc/iorapd/com.android.dialer/2900000/com.android.dialer.main.impl.MainActivity/raw_traces/1761324097396542300.perfetto_trace.pb
+10-24 23:41:37.396   419   419 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+10-24 23:41:37.397   430   430 I perfetto: ng_service_impl.cc:1948 Tracing session 114 ended, total sessions:0
+10-24 23:41:38.155  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+10-24 23:41:38.155  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+10-24 23:41:40.384   524  1804 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:41:40.394   524  1804 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-24 23:41:41.782  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+10-24 23:41:41.782  1255  1376 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+10-24 23:42:00.003   702   702 D KeyguardClockSwitch: Updating clock: 1142

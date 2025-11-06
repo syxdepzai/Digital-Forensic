@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="2dialogsLoadOffsetChatId1" value="0" />
+    <boolean name="proxyRotationEnabled" value="false" />
+    <int name="proxyRotationTimeout" value="1" />
+    <string name="genericAnimationsStickerPack">EmojiGenericAnimations</string>
+    <long name="2dialogsLoadOffsetUserId1" value="0" />
+    <long name="2dialogsLoadOffsetChannelId1" value="0" />
+    <int name="passcodeType" value="0" />
+    <long name="autoDownloadConfigLoadTime" value="1761308693236" />
+    <int name="scheduledHintShows" value="2" />
+    <int name="lastLocalId" value="-210000" />
+    <int name="lastContactsSyncTime" value="1761337569" />
+    <boolean name="2pinnedDialogsLoaded0" value="true" />
+    <int name="2dialogsLoadOffsetId" value="2147483647" />
+    <int name="2dialogsLoadOffsetId1" value="0" />
+    <boolean name="sortFilesByName" value="false" />
+    <int name="lastPauseTime" value="0" />
+    <boolean name="notificationsSettingsLoaded4" value="true" />
+    <long name="2dialogsLoadOffsetAccess1" value="0" />
+    <int name="botRatingLoadTime" value="0" />
+    <boolean name="suggestContacts" value="true" />
+    <int name="passportConfigHash" value="0" />
+    <string name="pushAuthKey">r06JzCKUrOz4xNzTwiT4aKsLSEHbmQqnflqAHsxrXfwi7vkhE9XDvCJD15Hw75xGJcJJLN4xvWz5&#10;EMgcUiNViEj2zs61fh5okAToqD+5+u6Ol6DQK5cT0jhUQnj+LH1R6N8viNSqRRALdord1En73D08&#10;ymI5l4iQoJvA1+ueLdb21+FrDOJ8w8NDGVgRqHFBJ9kGuXkRuyKFU4ZPueKmb+t4SdFGGkNb0nTY&#10;E35iEbAee/+4V6sveXcVdb+Rs+7X1mza1DklPzrO3IjG1ZwLZw73Wn8d7Ifngepg3fWwT1Iz3LRx&#10;O3hETYF2+fyhNE9PShgjtPX1arr1osyHegeUuw==&#10;    </string>
+    <boolean name="forwardingOptionsHintShown" value="false" />
+    <boolean name="contactsReimported" value="true" />
+    <long name="lastUpdatedGenericAnimations" value="1761308693327" />
+    <long name="lastUptimeMillis" value="0" />
+    <string name="pushString2">cTObZsvPTYWBG1lUXgYPhJ:APA91bHUetI3LlH2o2RVWhBF48nOmuel7Vu-rDxFgQ2GrKl-uYcyJ4ezLOJOWmYTrb8QgYk9x5EFOfpWzXbX7zI-rkpEWiyjj8XmJOPn82G7KvGVkioEG4U</string>
+    <long name="passcodeRetryInMs" value="0" />
+    <string name="passcodeSalt"></string>
+    <boolean name="pushStatSent" value="true" />
+    <boolean name="appLocked" value="false" />
+    <int name="pushType" value="2" />
+    <int name="ratingLoadTime" value="1761308701" />
+    <int name="selectedAccount" value="0" />
+    <long name="scheduledOrNoSoundHintSeenAt" value="0" />
+    <long name="2dialogsLoadOffsetChatId" value="0" />
+    <long name="2dialogsLoadOffsetAccess" value="0" />
+    <string name="passportConfigJson"></string>
+    <int name="lastSendMessageId" value="-210039" />
+    <int name="scheduledOrNoSoundHintShows" value="0" />
+    <int name="autoLockIn" value="3600" />
+    <boolean name="hasValidDialogLoadIds" value="true" />
+    <int name="lastBroadcastId" value="-1" />
+    <int name="textSelectionHintShows" value="1" />
+    <long name="appUpdateCheckTime" value="1761308656052" />
+    <int name="loginTime" value="1761308692" />
+    <boolean name="draftsLoaded" value="true" />
+    <int name="lastMyLocationShareTime" value="0" />
+    <int name="webappRatingLoadTime" value="0" />
+    <int name="6migrateOffsetId" value="-1" />
+    <int name="sharingMyLocationUntil" value="0" />
+    <boolean name="registeredForPush" value="true" />
+    <int name="lastHintsSyncTime" value="1761308701" />
+    <boolean name="replyingOptionsHintShown" value="false" />
+    <int name="2totalDialogsLoadCount" value="2" />
+    <int name="lockRecordAudioVideoHint" value="0" />
+    <boolean name="unreadDialogsLoaded" value="true" />
+    <string name="premiumGiftsStickerPack">GiftsPremium</string>
+    <boolean name="hasSecureData" value="false" />
+    <long name="2dialogsLoadOffsetUserId" value="0" />
+    <boolean name="filtersLoaded" value="true" />
+    <boolean name="saveIncomingPhotos" value="false" />
+    <boolean name="sortContactsByName" value="false" />
+    <string name="passcodeHash1"></string>
+    <boolean name="useFingerprint" value="true" />
+    <boolean name="allowScreenCapture" value="false" />
+    <boolean name="notificationsSignUpSettingsLoaded" value="true" />
+    <long name="2dialogsLoadOffsetChannelId" value="0" />
+    <long name="scheduledHintSeenAt" value="1761338196115" />
+    <string name="storageCacheDir"></string>
+    <int name="badPasscodeTries" value="0" />
+    <int name="contactsSavedCount" value="0" />
+    <int name="2dialogsLoadOffsetDate1" value="0" />
+    <int name="2totalDialogsLoadCount1" value="0" />
+    <boolean name="syncContacts" value="true" />
+    <long name="lastUpdatedPremiumGiftsStickerPack" value="1761308693326" />
+    <string name="user">IhQLAlcEAAIQAAAArrOo8gEAAADsM6JMucxnfwRUdWFuAAAAAlR1AAs4NDgxOTEwMzcwOEk5ue0n&#10;4vto&#10;    </string>
+    <int name="2dialogsLoadOffsetDate" value="0" />
+</map>

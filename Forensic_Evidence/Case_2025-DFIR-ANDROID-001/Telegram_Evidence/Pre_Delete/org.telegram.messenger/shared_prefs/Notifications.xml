@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="EnableContactJoined" value="true" />
+    <string name="groups_ia_b9fad">0channel_groups_ia_b9fad_-5958692996116780445</string>
+    <boolean name="dialog_bar_archived-4942177551" value="false" />
+    <int name="dialog_bar_vis35551152042" value="1" />
+    <boolean name="dialog_bar_share8366109614" value="false" />
+    <boolean name="dialog_bar_archived-1268639837" value="false" />
+    <boolean name="EnableReactionsPreview" value="true" />
+    <string name="GlobalSoundPath">Default</string>
+    <int name="dialog_bar_chat_with_date8366109614" value="0" />
+    <boolean name="dialog_bar_archived8366109614" value="false" />
+    <boolean name="dialog_bar_exception-1268639837" value="false" />
+    <boolean name="groupsCreated5" value="true" />
+    <boolean name="dialog_bar_exception-4942177551" value="false" />
+    <boolean name="dialog_bar_invite8366109614" value="false" />
+    <boolean name="dialog_bar_exception1618512706" value="false" />
+    <long name="dialog_bar_paying_777000" value="0" />
+    <int name="nextTosCheckTime" value="1761341477" />
+    <long name="dialog_bar_paying_-4942177551" value="0" />
+    <boolean name="dialog_bar_block5551152042" value="false" />
+    <boolean name="dialog_bar_location5551152042" value="false" />
+    <long name="dialog_bar_paying_-1268639837" value="0" />
+    <long name="dialog_bar_paying_1618512706" value="0" />
+    <boolean name="dialog_bar_report5551152042" value="false" />
+    <boolean name="dialog_bar_add-4942177551" value="false" />
+    <boolean name="dialog_bar_add-1268639837" value="false" />
+    <boolean name="dialog_bar_archived5551152042" value="false" />
+    <boolean name="EnableReactionsStories" value="true" />
+    <boolean name="dialog_bar_report-1268639837" value="false" />
+    <int name="notify2_8366109614" value="0" />
+    <boolean name="dialog_bar_share777000" value="false" />
+    <string name="sound_8366109614">Default</string>
+    <boolean name="dialog_bar_report-4942177551" value="false" />
+    <boolean name="dialog_bar_report8366109614" value="false" />
+    <int name="dialog_bar_vis3-1268639837" value="1" />
+    <boolean name="dialog_bar_add777000" value="false" />
+    <int name="dialog_bar_chat_with_date5551152042" value="0" />
+    <boolean name="dialog_bar_add1618512706" value="false" />
+    <boolean name="dialog_bar_share-1268639837" value="false" />
+    <int name="EnableAll2" value="0" />
+    <boolean name="dialog_bar_report777000" value="false" />
+    <long name="dialog_bar_paying_8366109614" value="0" />
+    <string name="private_b9fad_s">c444f5f452062a465bdab093e40b0417</string>
+    <int name="archivedStickersCount5" value="0" />
+    <string name="GroupSound">Default</string>
+    <int name="dialog_bar_chat_with_date-1268639837" value="0" />
+    <boolean name="EnableReactionsStoriesContacts" value="true" />
+    <boolean name="dialog_bar_share5551152042" value="false" />
+    <int name="dialog_bar_vis31618512706" value="1" />
+    <boolean name="dialog_bar_chat_with_channel5551152042" value="false" />
+    <int name="EnableChannel2" value="0" />
+    <boolean name="dialog_bar_location8366109614" value="false" />
+    <boolean name="silent_8366109614" value="false" />
+    <boolean name="dialog_bar_invite5551152042" value="false" />
+    <boolean name="EnableReactionsMessages" value="true" />
+    <boolean name="dialog_bar_invite-4942177551" value="true" />
+    <string name="private_ia_b9fad">0channel_private_ia_b9fad_4670549237070652072</string>
+    <string name="private_ia_b9fad_s">c444f5f452062a465bdab093e40b0417</string>
+    <boolean name="dialog_bar_block-4942177551" value="false" />
+    <long name="dialog_bar_paying_5551152042" value="0" />
+    <boolean name="dialog_bar_block-1268639837" value="false" />
+    <boolean name="dialog_bar_location-1268639837" value="false" />
+    <boolean name="dialog_bar_location-4942177551" value="false" />
+    <boolean name="dialog_bar_report1618512706" value="false" />
+    <boolean name="dialog_bar_add8366109614" value="false" />
+    <string name="ReactionSound">Default</string>
+    <boolean name="dialog_bar_block777000" value="false" />
+    <boolean name="dialog_bar_location1618512706" value="false" />
+    <boolean name="askAboutContacts" value="true" />
+    <string name="GlobalSound">Default</string>
+    <int name="dialog_bar_chat_with_date1618512706" value="0" />
+    <boolean name="dialog_bar_chat_with_channel8366109614" value="false" />
+    <boolean name="dialog_bar_chat_with_channel-1268639837" value="false" />
+    <string name="ChannelSound">Default</string>
+    <string name="ChannelSoundPath">Default</string>
+    <string name="private_b9fad">0channel_private_b9fad_-290641051039807522</string>
+    <boolean name="dialog_bar_chat_with_channel-4942177551" value="false" />
+    <boolean name="dialog_bar_exception777000" value="false" />
+    <boolean name="dialog_bar_archived1618512706" value="false" />
+    <string name="groups_ia_b9fad_s">c444f5f452062a465bdab093e40b0417</string>
+    <boolean name="dialog_bar_block1618512706" value="false" />
+    <string name="ReactionSoundPath">Default</string>
+    <boolean name="EnableReactionsMessagesContacts" value="true" />
+    <int name="EnableGroup2" value="0" />
+    <string name="silent_b2b3a">0channel_silent_b2b3a_-1853529811239974485</string>
+    <boolean name="dialog_bar_exception5551152042" value="false" />
+    <int name="dialog_bar_vis3777000" value="1" />
+    <boolean name="dialog_bar_archived777000" value="false" />
+    <string name="GroupSoundPath">Default</string>
+    <boolean name="dialog_bar_chat_with_channel777000" value="false" />
+    <int name="dialog_bar_vis3-4942177551" value="2" />
+    <boolean name="dialog_bar_share1618512706" value="false" />
+    <boolean name="EnablePreviewGroup" value="true" />
+    <boolean name="silent_1618512706" value="false" />
+    <boolean name="dialog_bar_invite777000" value="false" />
+    <boolean name="dialog_bar_block8366109614" value="false" />
+    <boolean name="dialog_bar_chat_with_channel1618512706" value="false" />
+    <int name="dialog_bar_vis38366109614" value="1" />
+    <boolean name="dialog_bar_share-4942177551" value="false" />
+    <int name="dialog_bar_chat_with_date-4942177551" value="0" />
+    <boolean name="dialog_bar_location777000" value="false" />
+    <boolean name="dialog_bar_exception8366109614" value="false" />
+    <boolean name="dialog_bar_invite1618512706" value="false" />
+    <boolean name="EnablePreviewChannel" value="true" />
+    <int name="dialog_bar_chat_with_date777000" value="0" />
+    <boolean name="EnablePreviewAll" value="true" />
+    <string name="silent_b2b3a_s">fcd04e26e900e94b9ed6dd604fed2b64</string>
+    <boolean name="dialog_bar_add5551152042" value="false" />
+    <boolean name="dialog_bar_invite-1268639837" value="false" />
+    <string name="sound_path_8366109614">Default</string>
+</map>

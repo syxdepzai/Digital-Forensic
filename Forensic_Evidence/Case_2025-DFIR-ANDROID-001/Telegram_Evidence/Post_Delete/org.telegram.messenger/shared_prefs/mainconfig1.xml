@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="revokeTimePmLimit" value="2147483647" />
+    <string name="translating_dialog_languages2"></string>
+    <int name="callReceiveTimeout" value="20000" />
+    <int name="revokeTimeLimit" value="2147483647" />
+    <int name="mapProvider" value="2" />
+    <boolean name="remoteConfigLoaded" value="true" />
+    <int name="maxCaptionLength" value="1024" />
+    <int name="maxRecentStickersCount" value="200" />
+    <string name="suggestedLangCode">en</string>
+    <int name="maxGroupCount" value="200" />
+    <int name="callPacketTimeout" value="10000" />
+    <boolean name="blockedCountry" value="false" />
+    <int name="maxMegagroupCount" value="200000" />
+    <string name="imageSearchBot">bing</string>
+    <int name="webFileDatacenterId" value="4" />
+    <string name="gifSearchBot">gif</string>
+    <int name="maxEditTime" value="172800" />
+    <boolean name="forceTryIpV6" value="false" />
+    <int name="maxRecentGifsCount" value="200" />
+    <boolean name="newConfig" value="true" />
+    <int name="callConnectTimeout" value="30000" />
+    <boolean name="preloadFeaturedStickers" value="false" />
+    <set name="hidden_translation_at" />
+    <string name="linkPrefix">t.me</string>
+    <string name="dcDomainName2">apv3.stel.com</string>
+    <int name="maxFaveStickersCount" value="5" />
+    <int name="maxFolderPinnedDialogsCountDefault" value="100" />
+    <int name="callRingTimeout" value="90000" />
+    <boolean name="canRevokePmInbox" value="true" />
+    <int name="maxMessageLength" value="4096" />
+    <int name="ratingDecay" value="2419200" />
+    <string name="pk">AIzaSyB0y3zA4LbA04ZPaHKsr_Xt5ZQWbMftj8I</string>
+    <int name="maxFolderPinnedDialogsCountPremium" value="100" />
+    <string name="venueSearchBot">foursquare</string>
+</map>

@@ -1,0 +1,141 @@
+COC
+🧾 BIÊN BẢN CHUỖI BẢO QUẢN DỮ LIỆU (CHAIN OF CUSTODY)
+Mã vụ việc (Case ID): 2025-DFIR-ANDROID-001
+Tên vụ việc: Phục hồi và tái dựng hành vi người dùng trên Android Emulator qua ba giai đoạn xóa dữ liệu (Call Logs & Media Metadata, Telegram)
+Nhóm thực hiện: Nhóm 15 – Phòng thí nghiệm Pháp chứng số
+Thành viên:
+•	Nguyễn Sỹ Thế Anh — MSSV: 22162003
+•	Nguyễn Kim Tú — MSSV: 22162054
+Email liên hệ: theanh010104@gmail.com
+Múi giờ: UTC (Giờ địa phương: UTC+7)
+________________________________________
+I. TIẾP NHẬN CHỨNG CỨ (EVIDENCE INTAKE)
+________________________________________
+Thời gian tiếp nhận (UTC): 2025-10-24T16:30:00Z
+Loại chứng cứ: Trích xuất logic từ máy ảo Android Emulator (AVD)
+Mô tả nguồn: Thiết bị ảo Android 11 (API 30, x86_64) – Device ID: emulator-5554
+Định danh / Nhãn dán: Không có (môi trường ảo)
+Nguồn bàn giao: Tự thu thập / Phòng thí nghiệm nhóm 15
+Tình trạng / Niêm phong: Dữ liệu logic – không có thiết bị vật lý, không cần niêm phong
+Vị trí lưu trữ ban đầu: E:\Forensic_Evidence\Case_2025-DFIR-ANDROID-001\
+________________________________________
+II. THIẾT LẬP DẤU VẾT HASH (HASH BASELINE)
+________________________________________
+Thuật toán: SHA-256
+Phạm vi áp dụng:
+•	E:\Forensic_Evidence\Case_2025-DFIR-ANDROID-001\OS_Evidence\
+•	E:\Forensic_Evidence\Case_2025-DFIR-ANDROID-001\Telegram_Evidence\
+Công cụ / Phiên bản: PowerShell Get-FileHash / GNU coreutils sha256sum (v9.4)
+Tổng quan: 476 tệp chứng cứ (~57 MB)
+Đường dẫn lưu log hash: E:\Forensic_Evidence\Case_2025-DFIR-ANDROID-001\99_reports\00_hash_baseline.txt
+________________________________________
+III. NHẬT KÝ THAO TÁC (OPERATIONS LOG – GHI BỔ SUNG LIÊN TỤC)
+________________________________________
+[UTC] 2025-10-24T16:35:00Z | Người thực hiện: Nhóm 15 | Hành động: Tạo dữ liệu mẫu (Ground Truth)
+Chi tiết: Chạy script gt_create_clean.ps1 để sinh mẫu dữ liệu: nhật ký cuộc gọi, hình ảnh, và dữ liệu Telegram.
+Kết quả: Thành công – xác nhận các bản ghi xuất hiện trong cơ sở dữ liệu hệ thống (/data/data/com.android.providers.*).
+________________________________________
+[UTC] 2025-10-24T16:50:00Z | Người thực hiện: Nhóm 15 | Hành động: Xóa dữ liệu chọn lọc (cuộc gọi và ảnh)
+Chi tiết: Thao tác trực tiếp trên ứng dụng Dialer và Gallery, ghi nhận sự kiện qua adb logcat.
+Kết quả: Thành công – ghi nhận tiến trình DeleteJob và sự kiện cập nhật nội dung trong logcat.
+________________________________________
+[UTC] 2025-10-24T16:55:00Z | Người thực hiện: Nhóm 15 | Hành động: Thu thập dữ liệu giai đoạn trước khi xóa
+Chi tiết: Chạy collect_evidence.ps1 để trích xuất calllog.db, external.db, và các tệp WAL/SHM.
+Kết quả: 8 tệp được lưu tại Pre_Delete\, hash được xác minh.
+________________________________________
+[UTC] 2025-10-24T17:00:00Z | Người thực hiện: Nhóm 15 | Hành động: Thu thập  ngay sau khi xóa
+Chi tiết: Trích xuất lại dữ liệu vào thư mục Immediate_Post\; cả hai tệp WAL vẫn chứa bản ghi đã xóa.
+Kết quả: Có thể phục hồi 100% dữ liệu logic (cuộc gọi + metadata ảnh).
+________________________________________
+[UTC] 2025-10-24T17:05:00Z | Người thực hiện: Nhóm 15 | Hành động: Chờ 5 phút và thu thập lại dữ liệu
+Chi tiết: Thu thập về thư mục Post_5min\, đồng thời theo dõi logcat (logcat_post5.txt).
+Kết quả: WAL của calllog.db đã bị checkpoint (rỗng); external.db-wal vẫn còn metadata → phục hồi ~30%.
+________________________________________
+[UTC] 2025-10-24T17:15:00Z | Người thực hiện: Nhóm 15 | Hành động: Khởi động lại thiết bị và trích xuất lần cuối
+Chi tiết: Thực hiện adb reboot, thu lại các tệp DB/WAL.
+Kết quả: Tất cả WAL đã được khởi tạo lại rỗng, mất hoàn toàn khả năng khôi phục logic.
+________________________________________
+[UTC] 2025-10-24T17:25:00Z | Người thực hiện: Nhóm 15 | Hành động: Kiểm tra tính toàn vẹn cơ sở dữ liệu
+Chi tiết: Mở trong DB Browser for SQLite; truy vấn các cột _data, date_added, date_modified.
+Kết quả: Xác nhận dữ liệu bị xóa hoàn toàn ở giai đoạn “sau reboot”.
+________________________________________
+[UTC] 2025-10-24T17:40:00Z | Người thực hiện: Nhóm 15 | Hành động: Phân tích tệp WAL
+Chi tiết: Dùng strings external.db-wal và strings calllog.db-wal để tìm dấu vết còn sót.
+Kết quả: Phục hồi thành công đường dẫn /Pictures/forensic_test_2.jpg – chỉ còn metadata.
+________________________________________
+[UTC] 2025-10-24T18:00:00Z | Người thực hiện: Nhóm 15 | Hành động: Tái dựng hành vi người dùng
+Chi tiết: So khớp mốc thời gian từ logcat (23:40 – 23:54) với dữ liệu SQLite.
+Kết quả: Tái dựng chuỗi hành vi xóa, mở ứng dụng, commit thay đổi thành công.
+________________________________________
+[UTC] 2025-10-24T19:00:00Z | Người thực hiện: Nhóm 15 | Hành động: Thu thập dữ liệu Telegram – Giai đoạn Pre_Delete
+Chi tiết: Trích xuất cache4.db, cache4.db-wal, cache4.db-shm từ /data/data/org.telegram.messenger/ trước khi xóa tin nhắn. Ghi nhận tiến trình JIT compiler và UI activity từ logcat.
+Kết quả: 408 tệp Telegram được lưu tại Telegram_Evidence\Pre_Delete\, tất cả tin nhắn nguyên bản được xác nhận trong messages_v2 table.
+________________________________________
+[UTC] 2025-10-24T19:15:00Z | Người thực hiện: Nhóm 15 | Hành động: Xóa tin nhắn Telegram (User Deletion)
+Chi tiết: Thao tác long-press message → select → delete. Ghi nhận sự kiện getSelectedText, didReceivedNotification, ChatMessageCell.setMessageContent trong logcat.
+Kết quả: Thành công – logcat xác nhận hành động xóa tại 03:43:27, UI được cập nhật tại 03:43:38, vibrator feedback tại 03:44:57.
+________________________________________
+[UTC] 2025-10-24T19:20:00Z | Người thực hiện: Nhóm 15 | Hành động: Thu thập dữ liệu Telegram – Giai đoạn Post_Delete (Immediate)
+Chi tiết: Trích xuất lại cache4.db, cache4.db-wal, cache4.db-shm ngay sau khi xóa (< 1 phút). WAL file vẫn chứa old values của deleted messages.
+Kết quả: Tin nhắn đã xóa từ messages_v2, nhưng dữ liệu được phục hồi 90-95% từ cache4.db-wal. Metadata từ database timestamps xác nhận deletion event.
+________________________________________
+[UTC] 2025-10-24T19:25:00Z | Người thực hiện: Nhóm 15 | Hành động: Phân tích logcat Telegram
+Chi tiết: Trích xuất logcat từ lúc 03:42:49 đến 03:45:22, phân tích timeline: getSelectedText (03:43:18) → didReceivedNotification (03:43:27) → setMessageContent (03:43:38).
+Kết quả: Timeline hoàn chỉnh chứng minh intent của user – không phải app crash hay system error. Logcat lưu tại 01_Logcat\ để reference.
+________________________________________
+IV. CHUYỂN GIAO / LƯU TRỮ (TRANSFERS / HANDOFFS)
+________________________________________
+Thời gian (UTC)	Người chuyển	Người nhận	Mục đích	Địa điểm
+2025-10-24T18:30:00Z	Nhóm 15 (Thế Anh – Tú)	Nhóm 15 (Thế Anh – Tú)	Lưu trữ và báo cáo	Phòng Lab – TP. Hồ Chí Minh
+2025-10-24T19:30:00Z	Nhóm 15 (Thế Anh – Tú)	Nhóm 15 (Thế Anh – Tú)	Chuyển giao chứng cứ Telegram (Pre_Delete + Post_Delete)	Phòng Lab – TP. Hồ Chí Minh
+2025-10-25T19:07:55Z	Nhóm 15 (Thế Anh – Tú)	Kho lưu trữ chính (E:\ drive)	Sao lưu dài hạn + Lưu trữ forensic	E:\Forensic_Evidence\Case_2025-DFIR-ANDROID-001\
+________________________________________
+V. LƯU TRỮ & KIỂM SOÁT TRUY CẬP (STORAGE / ACCESS CONTROL)
+________________________________________
+Vị trí lưu trữ chính: E:\Forensic_Evidence\Case_2025-DFIR-ANDROID-001\
+Loại phương tiện: Ảnh đĩa ảo (AVD .img) + Sao lưu vật lý trên E:\ drive
+Quyền truy cập: Chế độ chỉ đọc, không chỉnh sửa dữ liệu gốc.
+
+Chi tiết lưu trữ theo loại:
+1. OS_Evidence\ (46 tệp, ~4.2 MB)
+   - Phục hồi: 100% (ngay sau xóa), ~30% (sau 5 phút), 0% (sau reboot)
+      
+3. Telegram_Evidence\ (408 tệp, ~40.5 MB)
+   - Pre_Delete: cache4.db, cache4.db-wal, cache4.db-shm (nguyên bản, tất cả tin nhắn)
+   - Post_Delete: cache4.db, cache4.db-wal, cache4.db-shm (sau xóa tin nhắn)
+   - Phục hồi: 90-95% từ cache4.db-wal (chứa old values của deleted messages)
+   - Key Files: 
+     * cache4.db (SQLite database chính – 132 bảng, messages_v2 là core)
+     * cache4.db-wal (Write-Ahead Log – chứa deleted data)
+     * cache4.db-shm (Shared Memory file)
+   - Recovery Potential: Cao – tin nhắn xóa có thể phục hồi từ WAL trong vòng 1-2 giờ trước khi checkpoint
+________________________________________
+VI. HOÀN TẤT VỤ VIỆC (FINALIZATION)
+________________________________________
+Kết quả kiểm tra hash sau cùng: Trùng khớp (MATCH) – 466 tệp xác minh
+Ghi chú toàn bộ:
+  • external.db-wal tồn tại lâu hơn (~7 phút) do tiến trình MediaStore chạy nền, xác nhận độ trễ checkpoint.
+  • Telegram cache4.db-wal chứa dữ liệu 90-95% của các tin nhắn xóa – WAL checkpointing chậm do kích thước DB lớn (132 bảng, ~40 MB).
+  • Phân tích timeline logcat Telegram hoàn chỉnh:
+    - 03:43:18: getSelectedText event (người dùng chọn tin nhắn)
+    - 03:43:27: didReceivedNotification event (ứng dụng nhận notification)
+    - 03:43:38: ChatMessageCell.setMessageContent → UI update (xác nhận xóa)
+    - 03:44:57: vibrator feedback (phản hồi haptic)
+  • Kết luận: Xóa do ý đồ của người dùng (User Deletion Intent) – không phải lỗi hệ thống hay app crash.
+
+Phân tích WAL Telegram:
+  - cache4.db-wal Pre_Delete: 1,568 KB (chứa tất cả tin nhắn từ conversations)
+  - cache4.db-wal Post_Delete: 1,204 KB (xóa tin nhắn bị ghi trong WAL – old values được lưu)
+  - Kỹ thuật phục hồi: Đọc frame entries trong WAL file, xác định page numbers, reconstruct deleted rows
+  - Success Rate: 90-95% (một số frames có thể bị overwrite trong real-time operation)
+
+Hash Verification (SHA-256):
+  - Pre_Delete: 204 tệp Telegram
+  - Post_Delete: 204 tệp Telegram
+  - Tổng: 408 tệp, hash xác minh lưu tại E:\Forensic_Evidence\Case_2025-DFIR-ANDROID-001\99_reports\00_hash_baseline.txt
+
+Chữ ký:
+Người thực hiện: Nguyễn Sỹ Thế Anh (22162003)  Nguyễn Kim Tú (22162054)
+Người rà soát: Nhóm 15 – Digital Forensics Lab
+Ngày hoàn tất: 26/10/2025 (Transfer) / 25/10/2025 (Collection)
+=========================================================================

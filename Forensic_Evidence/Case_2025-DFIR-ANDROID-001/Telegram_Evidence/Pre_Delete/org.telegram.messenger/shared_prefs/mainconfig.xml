@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="storyhint" value="false" />
+    <string name="wifiPreset">13_13_13_13_1048576_15728640_3145728_524288_1_1_1_0_100_1</string>
+    <int name="largeQueueMaxActiveOperations" value="2" />
+    <int name="groupCustomWallpaperLevelMin" value="10" />
+    <int name="revokeTimePmLimit" value="2147483647" />
+    <int name="channelProfileIconLevelMin" value="7" />
+    <int name="callReceiveTimeout" value="20000" />
+    <int name="channelWallpaperLevelMin" value="9" />
+    <int name="scheduledHintShows" value="2" />
+    <int name="groupProfileBgIconLevelMin" value="5" />
+    <long name="telegramAntispamUserId" value="5434988373" />
+    <string name="stars_rating_learnmore_url">https://telegram.org/faq#q-what-does-profile-rating-mean</string>
+    <boolean name="backgroundConnection" value="true" />
+    <int name="channelgifthint" value="1" />
+    <string name="gifSearchEmojies">CgAAAATwn5GNAAAABPCfmJgAAAAE8J+YjQAAAATwn5ihAAAABPCfpbMAAAAE8J+YggAAAATwn5iu&#10;AAAABPCfmYQAAAAE8J+YjgAAAATwn5GOAAAA&#10;    </string>
+    <int name="channelRestrictSponsoredLevelMin" value="50" />
+    <float name="starsUsdSellRate1000" value="1410.0" />
+    <set name="authDomains">
+        <string>k.t.me</string>
+        <string>web.telegram.org</string>
+        <string>web.t.me</string>
+        <string>z.t.me</string>
+        <string>a.t.me</string>
+    </set>
+    <int name="maxRecentStickersCount" value="200" />
+    <int name="savedDialogsPinnedLimitDefault" value="5" />
+    <boolean name="last_stories_has_more" value="false" />
+    <int name="storiesSentWeeklyLimitPremium" value="700" />
+    <int name="savedDialogsPinnedLimitPremium" value="100" />
+    <int name="webFileDatacenterId" value="4" />
+    <boolean name="forceTryIpV6" value="false" />
+    <string name="premiumBotUsername">PremiumBot</string>
+    <int name="maxRecentGifsCount" value="200" />
+    <long name="ton_stargift_resale_amount_max" value="100000000000000" />
+    <int name="translate_button_restricted_languages_version" value="2" />
+    <int name="botPreviewMediasMax" value="12" />
+    <int name="telegramAntispamGroupSizeMin" value="200" />
+    <boolean name="nothanos" value="true" />
+    <int name="storiesSentWeeklyLimitDefault" value="3" />
+    <int name="channelEmojiStatusLevelMin" value="8" />
+    <int name="total_stores" value="0" />
+    <string name="linkPrefix">t.me</string>
+    <set name="hidden_translation_at" />
+    <string name="dcDomainName2">apv3.stel.com</string>
+    <int name="maxFaveStickersCount" value="5" />
+    <string name="preset2">13_13_13_13_1048576_15728640_3145728_524288_1_1_1_0_100_1</string>
+    <string name="autologinToken">MaSAPuFu2bvesagbkgC0yFfq0xXuHGPDrZiSeVTzLs9o--D5FgAAAAHyqLOuAHbhbjTEv2ORh4KLmtDrjnTrcJrKZmYPtCi9HBgoTFii</string>
+    <long name="effects_last_0" value="1761338587842" />
+    <long name="intro_crashed_time" value="0" />
+    <string name="preset1">5_5_5_5_1048576_2621440_512000_524288_0_1_1_0_50_1</string>
+    <string name="preset0">1_1_1_1_1048576_512000_512000_524288_0_0_1_1_0_0</string>
+    <int name="stargiftsMessageLengthMax" value="128" />
+    <int name="storyhint2" value="1" />
+    <int name="chatlistInvitesLimitPremium" value="100" />
+    <int name="storyExpiringLimitDefault" value="1" />
+    <int name="quickRepliesLimit" value="100" />
+    <long name="bday_check" value="1761334422842" />
+    <int name="stories_stealth_future_period" value="1500" />
+    <int name="ringtoneSizeMax" value="307200" />
+    <boolean name="lngpack_patched_en" value="true" />
+    <long name="giveaway_period_max" value="2678400" />
+    <boolean name="stories_loaded_hidden" value="false" />
+    <long name="ton_stargift_resale_amount_min" value="1000000000" />
+    <int name="groupWallpaperLevelMin" value="9" />
+    <int name="stars_stargift_resale_amount_max" value="100000" />
+    <int name="mapProvider" value="2" />
+    <string name="youtubePipType">inapp</string>
+    <long name="lastReloadStatusTime" value="1761337569841" />
+    <string name="peerColors">@-727783590^#[1,0]5{0};#[1,0]3{0};#[1,0]1{0};#[1,0]0{0};#[1,0]2{0};#[1,0]4{0};#[1,0]6{0};#[2,0]12{-13397548,-8530960@-11354113,-16034668};#[2,0]10{-14178032,-5776297@-5772434,-15303123};#[2,0]8{-2064341,-342732@-1265586,-3975404};#[2,0]7{-2011054,-414109@-27776,-6738121};#[2,0]9{-6266893,-749569@-3762177,-10604088};#[2,0]11{-14177074,-8197930@-12527408,-16491393};#[2,0]13{-2276495,-16737@-31066,-7457170};#[3,0]14{-14386195,-1030058,-1,-14386195@-12606722,-1752497,-1,-12606722};#[3,0]15{-2722014,-14770159,-1,-2722014@-28578,-13458137,-1,-28578};#[3,0]16{-15229374,-1553857,-1,-15229374@-10038428,-2800561,-1,-10038428};#[3,0]17{-14117713,-9452458,-1,-14117713@-14500638,-12737984,-1,-14500638};#[3,0]18{-15951181,-21099,-6475,-15951181@-14500638,-26760,-9621,-14500638};#[3,0]19{-8955946,-551408,-8562,-8955946@-6843905,-888035,-9383,-6843905};#[3,0]20{-15366705,-873699,-1,-15366705@-12736789,-1137379,-1,-12736789}</string>
+    <int name="maxCaptionLength" value="1024" />
+    <int name="introDescriptionLengthLimit" value="70" />
+    <boolean name="starsLocked" value="false" />
+    <int name="chatPendingRequests4942177551" value="0" />
+    <int name="maxGroupCount" value="200" />
+    <boolean name="filtersEnabled" value="true" />
+    <int name="stickersFavedLimitPremium" value="10" />
+    <boolean name="stories_loaded" value="false" />
+    <int name="groipCallVideoMaxParticipants" value="1000" />
+    <long name="starsSubscriptionAmountMax" value="10000" />
+    <string name="profilePeerColors">@1743258713^#[5,2]5{-11888938,-10842181,-9512705,-9371681@-13401919,-12095084,-7747585,-9240578};#[5,2]3{-11292105,-11951275,-8785798,-3478198@-12805086,-13405893,-8857715,-4074136};#[5,2]1{-2390727,-4031426,-20685,-536986@-3969244,-7053780,-20685,-536986};#[5,2]0{-3055012,-4565424,-24963,-18594@-4567993,-6535872,-32643,-31419};#[5,2]2{-6263329,-6985016,-746753,-23829@-7776310,-9351015,-1410817,-22031};#[5,2]4{-12212031,-12675155,-11740417,-12451902@-13130319,-13074809,-12068353,-13434931};#[5,2]6{-3317097,-4697224,-31063,-22893@-4830078,-7059613,-101489,-25730};#[5,2]7{-7299413,-8418411,-3943197,-1050369@-8812394,-12365215,-6705981,-1905933};#[6,3]13{-13202735,-8530960,-11301950,-11687747,-9512705,-9371681@-11628596,-9251347,-13082228,-12219487,-7747585,-9240578};#[6,3]11{-14178032,-5776297,-12740779,-7756208,-8785798,-3478198@-12740779,-5845161,-14063037,-10514620,-8857715,-4074136};#[6,3]9{-2064341,-934868,-3182012,-3369933,-20685,-536986@-3182012,-1529539,-7383761,-6196686,-20685,-536986};#[6,3]8{-1810334,-414109,-3582371,-2524073,-24963,-18594@-3582371,-290457,-6732989,-5482434,-32643,-31419};#[6,3]10{-6266893,-749569,-6921516,-4626762,-746753,-23829@-6921516,-1540636,-10271087,-7188318,-1410817,-22031};#[6,3]12{-14177074,-7542310,-12741190,-11489896,-11740417,-12451902@-13002816,-8790587,-13603716,-12674946,-12068353,-13434931};#[6,3]14{-3061390,-16737,-5222540,-3053971,-31063,-22893@-3911550,-947050,-7847584,-5877159,-101489,-25730};#[6,3]15{-9668476,-5392447,-10259326,-8680809,-3943197,-1050369@-9668476,-5392447,-11313042,-13089196,-6705981,-1905933}</string>
+    <boolean name="contacts_updated_v7" value="true" />
+    <float name="ton_usd_rate" value="2.1727777" />
+    <boolean name="storiesExportNopublicLink" value="true" />
+    <string name="gifSearchBot">gif</string>
+    <int name="chatlistUpdatePeriod" value="300" />
+    <boolean name="last_stories_has_more_hidden" value="false" />
+    <string name="weatherSearchUsername">StoryWeatherBot</string>
+    <int name="conferenceCallSizeLimit" value="200" />
+    <boolean name="preloadFeaturedStickers" value="false" />
+    <int name="stargifts_collection_gifts_limit" value="500" />
+    <int name="menuBotsUpdateDate" value="1761334422" />
+    <string name="cameraCache">AgAAAAAAAAAAAAAABQAAAAAFAADAAwAAAAUAANACAACAAgAA4AEAAGABAAAgAQAAQAEAAPAAAAAF&#10;AAAAAAUAAMADAAAABQAA0AIAAIACAADgAQAAYAEAACABAABAAQAA8AAAAAEAAAABAAAADwAAAIAH&#10;AACgBQAAgAcAADgEAACABwAAwAMAAEAGAACwBAAAoAUAADgEAAAABQAAwAMAAAAFAADQAgAAAAQA&#10;AAADAAAgAwAAWAIAANACAADgAQAAgAIAAOABAACAAgAAaAEAAGABAAAgAQAAQAEAAPAAAACwAAAA&#10;kAAAAA4AAACABwAAoAUAAIAHAAA4BAAAgAcAAMADAABABgAAsAQAAKAFAAA4BAAAAAUAAMADAAAA&#10;BQAA0AIAAAAEAAAAAwAAIAMAAFgCAADQAgAA4AEAAIACAADgAQAAgAIAAGgBAABgAQAAIAEAAEAB&#10;AADwAAAA&#10;    </string>
+    <long name="scheduledHintSeenAt" value="1761338196115" />
+    <boolean name="read_loaded" value="true" />
+    <int name="forumUpgradeParticipantsMin" value="0" />
+    <string name="venueSearchBot">foursquare</string>
+    <boolean name="stargiftsBlocked" value="false" />
+    <string name="bday_contacts">0DF34F1115C4B51C00000000</string>
+    <boolean name="giveawayGiftsPurchaseAvailable" value="true" />
+    <string name="last_stories_state_hidden">1761337593:0:0:71804a5e86f2ba2b60</string>
+    <string name="translating_dialog_languages2"></string>
+    <string name="businessFeaturesTypesToPosition">29_30_31_32_33_37_36_34_12_35_14</string>
+    <string name="language">en</string>
+    <boolean name="remoteConfigLoaded" value="true" />
+    <int name="reactionsInChatMax" value="100" />
+    <int name="storiesSentMonthlyLimitDefault" value="10" />
+    <int name="storiesSentMonthlyLimitPremium" value="3000" />
+    <int name="callPacketTimeout" value="10000" />
+    <boolean name="blockedCountry" value="false" />
+    <int name="maxMegagroupCount" value="200000" />
+    <string name="imageSearchBot">bing</string>
+    <set name="autologinDomains">
+        <string>bugs.telegram.org</string>
+        <string>instantview.telegram.org</string>
+        <string>contest.com</string>
+        <string>suggestions.telegram.org</string>
+        <string>themes.telegram.org</string>
+        <string>ads.telegram.org</string>
+        <string>translations.telegram.org</string>
+        <string>contest.dev</string>
+        <string>promote.telegram.org</string>
+    </set>
+    <boolean name="record_via_sco" value="false" />
+    <int name="smallQueueMaxActiveOperations" value="5" />
+    <int name="stargiftsConvertPeriodMax" value="604800" />
+    <int name="nextPromoInfoCheckTime" value="1761338779" />
+    <boolean name="firstlogin" value="false" />
+    <int name="groupTranscribeLevelMin" value="6" />
+    <int name="invitelinktime" value="1761308693" />
+    <int name="stories_album_stories_limit" value="1000" />
+    <boolean name="channelRevenueWithdrawalEnabled" value="true" />
+    <int name="callConnectTimeout" value="30000" />
+    <boolean name="starrefProgramAllowed" value="true" />
+    <int name="callRingTimeout" value="90000" />
+    <int name="lastKeepMediaCheckTime" value="1761308656" />
+    <int name="ratingDecay" value="2419200" />
+    <string name="directShareHash2">741fa80a-3948-444f-aedb-da2955ee7df3</string>
+    <boolean name="starrefConnectAllowed" value="true" />
+    <boolean name="keepAliveService" value="true" />
+    <int name="stories_stealth_cooldown_period" value="10800" />
+    <int name="groupEmojiStickersLevelMin" value="4" />
+    <int name="topicsPinnedLimit" value="5" />
+    <boolean name="savedMessagesUnsupported" value="false" />
+    <boolean name="hasEmailLogin" value="false" />
+    <boolean name="floatingDebugActive" value="false" />
+    <int name="channelBgIconLevelMin" value="4" />
+    <int name="revokeTimeLimit" value="2147483647" />
+    <int name="channelCustomWallpaperLevelMin" value="10" />
+    <boolean name="dualcam" value="false" />
+    <long name="proxy_dialog" value="0" />
+    <int name="todoTitleLengthMax" value="255" />
+    <float name="starsUsdWithdrawRate1000" value="1300.0" />
+    <set name="diceEmojies">
+        <string>🎯</string>
+        <string>🎳</string>
+        <string>🎲</string>
+        <string>⚽</string>
+        <string>🏀</string>
+        <string>🎰</string>
+    </set>
+    <int name="total_stores_hidden" value="0" />
+    <int name="textSelectionHintShows" value="1" />
+    <string name="suggestedLangCode">en</string>
+    <int name="chatPendingRequests1268639837" value="0" />
+    <string name="emojiSounds">CQAAAAPimrCsAAAAuQrIRE//SEYX8jLrAAAAAATwn46EAAAA7QAAADnAsUbcFG3QZF+CxgAAAAAK&#10;8J+nn+KAjeKZgADNAAAAvsLYRNkA5TQa4iR/AAAAAATwn46KAAAA7AAAADnAsUZt168MZrM2dgAA&#10;AAAK8J+nn+KAjeKZggDLAAAAvsLYRExh+wnhhVI3AAAAAATwn6efAAAAzAAAAL7C2EQGa3iXqVUU&#10;hAAAAAAE8J+mvgAAAO4AAAA5wLFGHDCsXxGxAoQAAAAABPCfjoMAAACrAAAAuQrIRMWTU6VjbcLi&#10;AAAAAATwn42RAAAArAAAAL7C4ERoXMcVczHdmAAAAAA=&#10;    </string>
+    <int name="stories_stealth_past_period" value="300" />
+    <string name="last_stories_state">1761337593:-445939839:0:c28e41b1ace790796b</string>
+    <string name="roamingPreset">1_1_1_1_1048576_512000_512000_524288_0_0_1_1_50_0</string>
+    <int name="dialogFiltersLimitPremium" value="30" />
+    <string name="sms_hash">oLeq9AcOZkT</string>
+    <int name="maxEditTime" value="172800" />
+    <set name="directPaymentsCurrency">
+        <string>BYN</string>
+        <string>RUB</string>
+    </set>
+    <boolean name="giftAttachMenuIcon" value="true" />
+    <string name="mobilePreset">13_13_13_13_1048576_10485760_1048576_524288_1_1_1_0_100_1</string>
+    <long name="stories_changelog_user_id" value="777000" />
+    <int name="starrefMaxCommissionPermille" value="800" />
+    <boolean name="newConfig" value="true" />
+    <string name="premiumFeaturesTypesToPosition">14_1_0_28_26_8_2_13_11_12_24_23_22_6_27_9_3_10_4_7_5_38_39</string>
+    <string name="diceSuccess">BQAAAATwn46vAAAAPgAAAAYAAAAE8J+OswAAAG4AAAAGAAAAA+KavW4AAAAFAAAABPCfj4AAAABu&#10;AAAABQAAAATwn46wAAAAbgAAAEAAAAA=&#10;    </string>
+    <int name="needShowRoundHint2" value="3" />
+    <int name="maxFolderPinnedDialogsCountDefault" value="100" />
+    <boolean name="canRevokePmInbox" value="true" />
+    <int name="stargifts_collections_limit" value="10" />
+    <int name="maxMessageLength" value="4096" />
+    <string name="invitelink">https://telegram.org/dl</string>
+    <int name="groupEmojiStatusLevelMin" value="8" />
+    <boolean name="firstloginshow" value="false" />
+    <string name="pk">AIzaSyB0y3zA4LbA04ZPaHKsr_Xt5ZQWbMftj8I</string>
+    <int name="todoItemLengthMax" value="200" />
+    <int name="ton_stargift_resale_commission_permille" value="900" />
+    <int name="maxFolderPinnedDialogsCountPremium" value="100" />
+</map>

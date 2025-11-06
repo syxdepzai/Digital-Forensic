@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="lastSendMessageId" value="-210000" />
+    <long name="autoDownloadConfigLoadTime" value="0" />
+    <int name="lastContactsSyncTime" value="1761225856" />
+    <boolean name="hasValidDialogLoadIds" value="false" />
+    <int name="lastBroadcastId" value="-1" />
+    <int name="loginTime" value="1" />
+    <boolean name="notificationsSettingsLoaded4" value="false" />
+    <boolean name="draftsLoaded" value="false" />
+    <int name="lastMyLocationShareTime" value="0" />
+    <int name="webappRatingLoadTime" value="0" />
+    <int name="botRatingLoadTime" value="0" />
+    <boolean name="suggestContacts" value="true" />
+    <int name="6migrateOffsetId" value="0" />
+    <int name="sharingMyLocationUntil" value="0" />
+    <boolean name="registeredForPush" value="false" />
+    <int name="lastHintsSyncTime" value="1761218656" />
+    <boolean name="unreadDialogsLoaded" value="false" />
+    <boolean name="contactsReimported" value="false" />
+    <long name="lastUpdatedGenericAnimations" value="0" />
+    <long name="6migrateOffsetUserId" value="0" />
+    <boolean name="hasSecureData" value="false" />
+    <boolean name="filtersLoaded" value="false" />
+    <long name="6migrateOffsetChannelId" value="0" />
+    <long name="6migrateOffsetAccess" value="0" />
+    <long name="6migrateOffsetChatId" value="0" />
+    <int name="6migrateOffsetDate" value="0" />
+    <boolean name="notificationsSignUpSettingsLoaded" value="false" />
+    <int name="ratingLoadTime" value="0" />
+    <int name="contactsSavedCount" value="0" />
+    <boolean name="syncContacts" value="true" />
+    <long name="lastUpdatedPremiumGiftsStickerPack" value="0" />
+</map>

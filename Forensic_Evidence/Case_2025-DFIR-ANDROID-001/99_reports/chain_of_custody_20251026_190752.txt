@@ -1,0 +1,35 @@
+﻿CHAIN OF CUSTODY - EVIDENCE TRANSFER LOG
+========================================
+Case: 2025-DFIR-ANDROID-001
+Date: 2025-10-26 19:07:55 UTC+7
+Source: D:\Final_DIFO\New folder\Forensic_Evidence
+Destination: E:\Forensic_Evidence\Case_2025-DFIR-ANDROID-001
+
+EVIDENCE SUMMARY
+========================================
+Calllog Files:    46
+Images Files:     22  
+Telegram Files:   408
+Logcat Files:     0
+Total Files:      466
+
+EVIDENCE STRUCTURE
+========================================
+E:\Forensic_Evidence\Case_2025-DFIR-ANDROID-001\
+- Calllog_Evidence\ (Pre_Delete, Post_Immediate, Post_5min_Pre, Post_5min_Post)
+- Images_Evidence\ (Pre_Reboot, Post_Reboot)
+- Telegram_Evidence\ (Pre_Delete, Post_Delete)
+- 99_reports\
+  - 00_Hash_Baseline\ (SHA256 verification)
+  - 01_Logcat\ (System event logs)
+  - chain_of_custody_*.txt
+
+VERIFICATION
+========================================
+Status: COMPLETED
+Hash Algorithm: SHA-256
+All files copied successfully
+CoC maintained
+
+Performed by: Nhom 15
+Date: 26-10-2025

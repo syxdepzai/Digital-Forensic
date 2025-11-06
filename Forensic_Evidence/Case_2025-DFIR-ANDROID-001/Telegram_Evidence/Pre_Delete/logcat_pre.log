@@ -1,0 +1,546 @@
+--------- beginning of kernel
+10-25 03:42:49.890     0     0 D logd    : Skipping 4294966881 entries from slow reader, pid 390, from LogBuffer::kickMe()
+10-25 03:42:51.510     0     0 D logd    : logdr: UID=0 GID=0 PID=5826 b tail=0 logMask=99 pid=0 start=0ns timeout=0ns
+--------- beginning of main
+10-25 03:43:00.004   705   705 D KeyguardClockSwitch: Updating clock: 343
+10-25 03:43:00.996  1334  1334 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+10-25 03:43:00.997  1334  1334 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+10-25 03:43:00.999  1334  1334 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-25 03:43:00.999  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+10-25 03:43:01.000  1334  1334 I AndroidIME: AbstractIme.onDeactivate():161 LatinIme.onDeactivate()
+10-25 03:43:01.001  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onDeactivate():281 onDeactivate()
+10-25 03:43:01.001  1334  1334 I MagicGCandidateProvider: MagicGCandidateProvider.deactivate():221 onDeactivate()
+10-25 03:43:01.327  5389  5403 I egram.messenge: Compiler allocated 5051KB to compile void org.telegram.ui.Components.FlickerLoadingView.onDraw(android.graphics.Canvas)
+10-25 03:43:02.617   521   970 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:02.617   521   970 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:03.801  1334  1334 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():128 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+10-25 03:43:03.801  1334  1334 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = org.telegram.messenger : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 03:43:03.802  1334  1334 I Delight5Facilitator: Delight5Facilitator.initializeForIme():561 initializeForIme() : Locale = [en_US], layout = qwerty
+10-25 03:43:03.802  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+10-25 03:43:03.802  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+10-25 03:43:03.802  1334  4537 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():160 maybeScheduleAutoPackDownloadForFallback()
+10-25 03:43:03.803  1334  4537 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():197 maybeScheduleAutoPackDownload() for language tag en-US
+10-25 03:43:03.804  1334  1334 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-25 03:43:03.824  1334  1334 W KeyboardModeManager: KeyboardModeManager.setInputView():302 setInputView() : inputView = com.google.android.apps.inputmethod.libs.framework.core.InputView{35fd2a9 V.E...... ......ID 0,0-1080,2063}
+10-25 03:43:03.824  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():197 onActivate() : Locale = en_US
+10-25 03:43:03.825  1334  1334 I MagicGCandidateProvider: MagicGCandidateProvider.activate():228 onActivate()
+10-25 03:43:03.825  1334  1334 I ConversationToQueryClientSingleton: ConversationToQueryClientSingleton.initialize():152 Conv2Query client already exists for locale 'en_US'. Checking for update.
+10-25 03:43:03.826  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():227 onActivate() : Finished in 1 ms. Activated = true
+10-25 03:43:03.827  1334  1334 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():336 No private IME option set to start voice input.
+10-25 03:43:04.997   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:05.005   521   608 I chatty  : uid=1000(system) InputDispatcher identical 1 line
+10-25 03:43:05.012   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:05.085  1334  1334 I ShortcutsDataManager: ShortcutsDataManager.onContentChanged():89 onContentChanged()
+10-25 03:43:05.206   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:05.280   521   608 I chatty  : uid=1000(system) InputDispatcher identical 1 line
+10-25 03:43:05.303   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:05.388   521  1026 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:05.455   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:05.606   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:05.608  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:05.609  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:05.666   521   970 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:06.025  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:06.061   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:06.436   521   608 I chatty  : uid=1000(system) InputDispatcher identical 3 lines
+10-25 03:43:06.454   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:07.720  5389  5403 I egram.messenge: Method exceeds compiler instruction limit: 33024 in void org.telegram.ui.Cells.ChatMessageCell.setMessageContent(org.telegram.messenger.MessageObject, org.telegram.messenger.MessageObject$GroupedMessages, boolean, boolean, boolean, boolean)
+10-25 03:43:07.740  5389  5389 W IInputConnectionWrapper: getTextBeforeCursor on inactive InputConnection
+10-25 03:43:07.753  5389  5389 W IInputConnectionWrapper: getSelectedText on inactive InputConnection
+10-25 03:43:07.772  5389  5389 W IInputConnectionWrapper: getTextAfterCursor on inactive InputConnection
+10-25 03:43:07.773  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:07.805  5389  5389 W IInputConnectionWrapper: getCursorCapsMode on inactive InputConnection
+10-25 03:43:07.819  5389  5389 W IInputConnectionWrapper: getCursorCapsMode on inactive InputConnection
+10-25 03:43:07.820  1334  1334 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+10-25 03:43:07.820  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [INPUT_VIEW_SESSION] is not ended while ending session [{INPUT_SESSION=1761338583251, IME_SESSION=1761338583801, INPUT_VIEW_SESSION=1761338583760, TRAINING_CACHE_SESSION=1761338583801}], ending it now.
+10-25 03:43:07.820  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [IME_SESSION] is not ended while ending session [{INPUT_SESSION=1761338583251, IME_SESSION=1761338583801, INPUT_VIEW_SESSION=1761338583760, TRAINING_CACHE_SESSION=1761338583801}], ending it now.
+10-25 03:43:07.821  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [TRAINING_CACHE_SESSION] is not ended while ending session [{INPUT_SESSION=1761338583251, IME_SESSION=1761338583801, INPUT_VIEW_SESSION=1761338583760, TRAINING_CACHE_SESSION=1761338583801}], ending it now.
+10-25 03:43:07.821  1334  1334 I ShortcutsDataManager: AbstractContentDataManager.startImportContentTask():208 startImportContentTask()
+10-25 03:43:07.870  1334  1334 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():128 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+10-25 03:43:07.871  1334  1334 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+10-25 03:43:07.871  1334  1334 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+10-25 03:43:07.873  1334  1334 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-25 03:43:07.873  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+10-25 03:43:07.873  1334  1334 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [TRAINING_CACHE_SESSION].
+10-25 03:43:07.873  1334  1334 I AndroidIME: AbstractIme.onDeactivate():161 LatinIme.onDeactivate()
+10-25 03:43:07.874  1334  1334 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [IME_SESSION].
+10-25 03:43:07.874  1334  1334 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = org.telegram.messenger : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 03:43:07.875  1334  1334 I Delight5Facilitator: Delight5Facilitator.initializeForIme():561 initializeForIme() : Locale = [en_US], layout = qwerty
+10-25 03:43:07.876  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+10-25 03:43:07.876  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+10-25 03:43:07.877  1334  4537 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():160 maybeScheduleAutoPackDownloadForFallback()
+10-25 03:43:07.877  1334  4537 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():197 maybeScheduleAutoPackDownload() for language tag en-US
+10-25 03:43:07.880  1334  1334 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-25 03:43:07.892  1334  1334 W KeyboardModeManager: KeyboardModeManager.setInputView():302 setInputView() : inputView = com.google.android.apps.inputmethod.libs.framework.core.InputView{35fd2a9 V.E...... ......ID 0,0-1080,2063}
+10-25 03:43:07.892  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onDeactivate():281 onDeactivate()
+10-25 03:43:07.892  1334  1334 I MagicGCandidateProvider: MagicGCandidateProvider.deactivate():221 onDeactivate()
+10-25 03:43:07.893  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():197 onActivate() : Locale = en_US
+10-25 03:43:07.893  1334  1334 I MagicGCandidateProvider: MagicGCandidateProvider.activate():228 onActivate()
+10-25 03:43:07.893  1334  1334 I ConversationToQueryClientSingleton: ConversationToQueryClientSingleton.initialize():152 Conv2Query client already exists for locale 'en_US'. Checking for update.
+10-25 03:43:07.893  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():227 onActivate() : Finished in 0 ms. Activated = true
+10-25 03:43:07.894  1334  1334 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():336 No private IME option set to start voice input.
+10-25 03:43:07.986  1334  2039 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.doInBackground():222 doInBackground()
+10-25 03:43:07.986  1334  2039 I PersonalDictionaryDataHandler: PersonalDictionaryDataHandler.beginProcess():111 LanguageTags = [en-US]
+10-25 03:43:07.987  1334  1334 W InputContextProxy: InputContextProxy.applyClientDiffInternal():832 Ignore [FetchSuggestions] diff due to stale request: 724<726, inputStateId=770, lastInputStateId=771
+10-25 03:43:08.009   386   459 D AudioFlinger: mixer(0xf4ff3030) throttle end: throttle time(35)
+10-25 03:43:08.012   521   970 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:08.021   521   970 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:08.042  1334  2039 I ShortcutsDataManager: AbstractContentDataManager.importRecords():312 importRecords() : Success : Count = 0
+10-25 03:43:08.045  1334  2039 I ShortcutsDataManager: AbstractContentDataManager.importContentData():262 importContentData() : Ending import process
+10-25 03:43:08.067  1334  2039 I PersonalLanguageModelUpdater: PersonalLanguageModelUpdater$UpdateOperation.performInternal():160 run() : Added 0 words and 0 shortcuts
+10-25 03:43:08.067  1334  2039 I DynamicLanguageModelOperation: DynamicLanguageModelOperation.perform():37 perform() : 4 : coc : Completed
+10-25 03:43:08.067  1334  2402 I Delight5Decoder: Delight5DecoderWrapper.loadLanguageModel():578 loadLanguageModel() : 4, version [n/a]
+10-25 03:43:08.068  1334  1334 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.onPostExecute():233 onPostExecute() : Result = [2,0]
+10-25 03:43:08.068  1334  1334 I ShortcutsDataManager: ShortcutsDataManager.onImportFinished():99 onImportFinished() : Result = 2 : Count = 0
+10-25 03:43:08.068  1334  2402 I Delight5Decoder: Delight5DecoderWrapper.loadLanguageModel():616 Loaded dynamic LM 4.en
+10-25 03:43:08.251  1334  1445 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+10-25 03:43:08.251  1334  1445 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+10-25 03:43:09.445   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:09.452   521   608 I chatty  : uid=1000(system) InputDispatcher identical 2 lines
+10-25 03:43:09.620   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:09.624  1334  2402 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: @
+10-25 03:43:09.625  1334  2402 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: !
+10-25 03:43:09.625  1334  2402 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: #
+10-25 03:43:09.625  1334  2402 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: %
+10-25 03:43:09.625  1334  2402 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: &
+10-25 03:43:09.625  1334  2402 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: *
+10-25 03:43:09.625  1334  2402 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: +
+10-25 03:43:09.625  1334  2402 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: /
+10-25 03:43:09.625  1334  2402 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: =
+10-25 03:43:09.625  1334  2402 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: ?
+10-25 03:43:09.625  1334  2402 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: ^
+10-25 03:43:09.625  1334  2402 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: _
+10-25 03:43:09.625  1334  2402 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: `
+10-25 03:43:09.625  1334  2402 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: {
+10-25 03:43:09.625  1334  2402 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: |
+10-25 03:43:09.625  1334  2402 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: }
+10-25 03:43:09.625  1334  2402 W native  : neural_spatial_model.cc:390 Output symbol table doesn't contain symbol: ~
+10-25 03:43:09.725   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:09.875   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:09.881  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:09.883  1334  2402 I chatty  : uid=10146(com.google.android.inputmethod.latin) DecoderWrapper identical 39 lines
+10-25 03:43:09.883  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:10.057   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:10.060  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:10.064  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:10.166   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:10.258   521   608 I chatty  : uid=1000(system) InputDispatcher identical 1 line
+10-25 03:43:10.334   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:10.355  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:10.357  1334  2402 I chatty  : uid=10146(com.google.android.inputmethod.latin) DecoderWrapper identical 33 lines
+10-25 03:43:10.357  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:10.449   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:10.575   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:10.577  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:10.579  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:10.678   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:10.735   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:10.824   521  1026 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:10.983  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:10.985  1334  2402 I chatty  : uid=10146(com.google.android.inputmethod.latin) DecoderWrapper identical 33 lines
+10-25 03:43:10.985  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:11.055   521  1026 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:12.076  5389  5389 W IInputConnectionWrapper: getTextBeforeCursor on inactive InputConnection
+10-25 03:43:12.095  5389  5389 W IInputConnectionWrapper: getSelectedText on inactive InputConnection
+10-25 03:43:12.105  5389  5389 W IInputConnectionWrapper: getTextAfterCursor on inactive InputConnection
+10-25 03:43:12.114  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:12.135  5389  5389 W IInputConnectionWrapper: getCursorCapsMode on inactive InputConnection
+10-25 03:43:12.152  5389  5389 W IInputConnectionWrapper: getCursorCapsMode on inactive InputConnection
+10-25 03:43:12.155  1334  1334 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+10-25 03:43:12.156  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [INPUT_VIEW_SESSION] is not ended while ending session [{INPUT_SESSION=1761338587821, IME_SESSION=1761338587874, INPUT_VIEW_SESSION=1761338587822, TRAINING_CACHE_SESSION=1761338587874}], ending it now.
+10-25 03:43:12.156  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [IME_SESSION] is not ended while ending session [{INPUT_SESSION=1761338587821, IME_SESSION=1761338587874, INPUT_VIEW_SESSION=1761338587822, TRAINING_CACHE_SESSION=1761338587874}], ending it now.
+10-25 03:43:12.157  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [TRAINING_CACHE_SESSION] is not ended while ending session [{INPUT_SESSION=1761338587821, IME_SESSION=1761338587874, INPUT_VIEW_SESSION=1761338587822, TRAINING_CACHE_SESSION=1761338587874}], ending it now.
+10-25 03:43:12.204  1334  1334 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():128 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+10-25 03:43:12.205  1334  1334 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+10-25 03:43:12.207  1334  1334 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+10-25 03:43:12.209  1334  1334 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-25 03:43:12.209  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+10-25 03:43:12.210  1334  1334 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [TRAINING_CACHE_SESSION].
+10-25 03:43:12.210  1334  1334 I AndroidIME: AbstractIme.onDeactivate():161 LatinIme.onDeactivate()
+10-25 03:43:12.211  1334  1334 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [IME_SESSION].
+10-25 03:43:12.214  1334  1334 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = org.telegram.messenger : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 03:43:12.215  1334  1334 I Delight5Facilitator: Delight5Facilitator.initializeForIme():561 initializeForIme() : Locale = [en_US], layout = qwerty
+10-25 03:43:12.216  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+10-25 03:43:12.216  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+10-25 03:43:12.216  1334  4537 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():160 maybeScheduleAutoPackDownloadForFallback()
+10-25 03:43:12.216  1334  4537 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():197 maybeScheduleAutoPackDownload() for language tag en-US
+10-25 03:43:12.218  1334  1334 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-25 03:43:12.227  1334  1334 W KeyboardModeManager: KeyboardModeManager.setInputView():302 setInputView() : inputView = com.google.android.apps.inputmethod.libs.framework.core.InputView{35fd2a9 V.E...... ......ID 0,0-1080,2063}
+10-25 03:43:12.228  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onDeactivate():281 onDeactivate()
+10-25 03:43:12.229  1334  1334 I MagicGCandidateProvider: MagicGCandidateProvider.deactivate():221 onDeactivate()
+10-25 03:43:12.229  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():197 onActivate() : Locale = en_US
+10-25 03:43:12.229  1334  1334 I MagicGCandidateProvider: MagicGCandidateProvider.activate():228 onActivate()
+10-25 03:43:12.229  1334  1334 I ConversationToQueryClientSingleton: ConversationToQueryClientSingleton.initialize():152 Conv2Query client already exists for locale 'en_US'. Checking for update.
+10-25 03:43:12.229  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():227 onActivate() : Finished in 1 ms. Activated = true
+10-25 03:43:12.230  1334  1334 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():336 No private IME option set to start voice input.
+10-25 03:43:12.323  1334  1334 W InputContextProxy: InputContextProxy.applyClientDiffInternal():832 Ignore [FetchSuggestions] diff due to stale request: 756<758, inputStateId=804, lastInputStateId=805
+10-25 03:43:12.337   521   970 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:12.338   521   970 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:12.338   386   459 D AudioFlinger: mixer(0xf4ff3030) throttle end: throttle time(38)
+10-25 03:43:13.469   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:13.786   521   608 I chatty  : uid=1000(system) InputDispatcher identical 4 lines
+10-25 03:43:13.960   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:13.983  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:13.984  1334  2402 I chatty  : uid=10146(com.google.android.inputmethod.latin) DecoderWrapper identical 1 line
+10-25 03:43:13.984  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:14.089   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:14.091  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:14.092  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:14.165   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:14.421   521   608 I chatty  : uid=1000(system) InputDispatcher identical 3 lines
+10-25 03:43:14.633   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:14.634  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:14.637  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:14.702   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:14.975   521   608 I chatty  : uid=1000(system) InputDispatcher identical 2 lines
+10-25 03:43:15.132   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:15.134  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:15.137  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:15.209   521   970 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:15.224   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:15.327   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:15.385   521  3839 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:15.493   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:15.498  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:15.500  1334  2402 I chatty  : uid=10146(com.google.android.inputmethod.latin) DecoderWrapper identical 35 lines
+10-25 03:43:15.500  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:15.722  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:15.724  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:15.912   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:16.438   521   608 I chatty  : uid=1000(system) InputDispatcher identical 4 lines
+10-25 03:43:16.587   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:16.589  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:16.591  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:16.738   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:16.800   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:18.325  5389  5389 W IInputConnectionWrapper: getTextBeforeCursor on inactive InputConnection
+10-25 03:43:18.330  5389  5389 W IInputConnectionWrapper: getSelectedText on inactive InputConnection
+10-25 03:43:18.353  5389  5389 W IInputConnectionWrapper: getTextAfterCursor on inactive InputConnection
+10-25 03:43:18.355  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:18.366  5389  5389 W IInputConnectionWrapper: getCursorCapsMode on inactive InputConnection
+10-25 03:43:18.382  5389  5389 W IInputConnectionWrapper: getCursorCapsMode on inactive InputConnection
+10-25 03:43:18.385  1334  1334 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+10-25 03:43:18.385  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [INPUT_VIEW_SESSION] is not ended while ending session [{INPUT_SESSION=1761338592159, IME_SESSION=1761338592212, INPUT_VIEW_SESSION=1761338592160, TRAINING_CACHE_SESSION=1761338592214}], ending it now.
+10-25 03:43:18.385  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [IME_SESSION] is not ended while ending session [{INPUT_SESSION=1761338592159, IME_SESSION=1761338592212, INPUT_VIEW_SESSION=1761338592160, TRAINING_CACHE_SESSION=1761338592214}], ending it now.
+10-25 03:43:18.385  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [TRAINING_CACHE_SESSION] is not ended while ending session [{INPUT_SESSION=1761338592159, IME_SESSION=1761338592212, INPUT_VIEW_SESSION=1761338592160, TRAINING_CACHE_SESSION=1761338592214}], ending it now.
+10-25 03:43:18.434  1334  1334 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():128 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+10-25 03:43:18.434  1334  1334 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+10-25 03:43:18.435  1334  1334 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+10-25 03:43:18.436  1334  1334 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-25 03:43:18.436  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+10-25 03:43:18.437  1334  1334 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [TRAINING_CACHE_SESSION].
+10-25 03:43:18.437  1334  1334 I AndroidIME: AbstractIme.onDeactivate():161 LatinIme.onDeactivate()
+10-25 03:43:18.438  1334  1334 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [IME_SESSION].
+10-25 03:43:18.438  1334  1334 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = org.telegram.messenger : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 03:43:18.439  1334  1334 I Delight5Facilitator: Delight5Facilitator.initializeForIme():561 initializeForIme() : Locale = [en_US], layout = qwerty
+10-25 03:43:18.439  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+10-25 03:43:18.439  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+10-25 03:43:18.439  1334  4537 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():160 maybeScheduleAutoPackDownloadForFallback()
+10-25 03:43:18.439  1334  4537 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():197 maybeScheduleAutoPackDownload() for language tag en-US
+10-25 03:43:18.441  1334  1334 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-25 03:43:18.465  1334  1334 W KeyboardModeManager: KeyboardModeManager.setInputView():302 setInputView() : inputView = com.google.android.apps.inputmethod.libs.framework.core.InputView{35fd2a9 V.E...... ......ID 0,0-1080,2063}
+10-25 03:43:18.466  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onDeactivate():281 onDeactivate()
+10-25 03:43:18.466  1334  1334 I MagicGCandidateProvider: MagicGCandidateProvider.deactivate():221 onDeactivate()
+10-25 03:43:18.467  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():197 onActivate() : Locale = en_US
+10-25 03:43:18.467  1334  1334 I MagicGCandidateProvider: MagicGCandidateProvider.activate():228 onActivate()
+10-25 03:43:18.468  1334  1334 I ConversationToQueryClientSingleton: ConversationToQueryClientSingleton.initialize():152 Conv2Query client already exists for locale 'en_US'. Checking for update.
+10-25 03:43:18.468  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():227 onActivate() : Finished in 1 ms. Activated = true
+10-25 03:43:18.469  1334  1334 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():336 No private IME option set to start voice input.
+10-25 03:43:18.555  1334  1334 W InputContextProxy: InputContextProxy.applyClientDiffInternal():832 Ignore [FetchSuggestions] diff due to stale request: 812<814, inputStateId=865, lastInputStateId=866
+10-25 03:43:18.588   521  3839 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:18.588   521  3839 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:18.589   386   459 D AudioFlinger: mixer(0xf4ff3030) throttle end: throttle time(37)
+10-25 03:43:21.514   521   970 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:21.635   521  3839 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:21.731   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:22.129   521   608 I chatty  : uid=1000(system) InputDispatcher identical 4 lines
+10-25 03:43:22.198   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:22.218  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:22.220  1334  2402 I chatty  : uid=10146(com.google.android.inputmethod.latin) DecoderWrapper identical 33 lines
+10-25 03:43:22.220  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:22.400   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:22.638  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:22.638  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:23.646   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:23.775   521   608 I chatty  : uid=1000(system) InputDispatcher identical 2 lines
+10-25 03:43:23.963   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:23.967  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:23.968  1334  2402 I chatty  : uid=10146(com.google.android.inputmethod.latin) DecoderWrapper identical 4 lines
+10-25 03:43:23.968  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:24.204  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:24.207  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:24.445   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:24.848   521   608 I chatty  : uid=1000(system) InputDispatcher identical 4 lines
+10-25 03:43:25.051   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:25.052  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:25.054  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:25.178   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:25.237   521   608 I chatty  : uid=1000(system) InputDispatcher identical 1 line
+10-25 03:43:25.301   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:25.307  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:25.309  1334  2402 I chatty  : uid=10146(com.google.android.inputmethod.latin) DecoderWrapper identical 30 lines
+10-25 03:43:25.309  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:25.398   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:25.400  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:25.403  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:25.482   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:25.593   521   608 I chatty  : uid=1000(system) InputDispatcher identical 1 line
+10-25 03:43:25.713   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:25.717  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:25.719  1334  2402 I chatty  : uid=10146(com.google.android.inputmethod.latin) DecoderWrapper identical 34 lines
+10-25 03:43:25.719  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:25.911   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:25.915  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:25.918  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:26.014   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:26.089   521   608 I chatty  : uid=1000(system) InputDispatcher identical 1 line
+10-25 03:43:26.241   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:27.270  5389  5389 W IInputConnectionWrapper: getTextBeforeCursor on inactive InputConnection
+10-25 03:43:27.286  5389  5389 W IInputConnectionWrapper: getSelectedText on inactive InputConnection
+10-25 03:43:27.302  5389  5389 W IInputConnectionWrapper: getTextAfterCursor on inactive InputConnection
+10-25 03:43:27.303  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:27.333  5389  5389 W IInputConnectionWrapper: getCursorCapsMode on inactive InputConnection
+10-25 03:43:27.353  5389  5389 W IInputConnectionWrapper: getCursorCapsMode on inactive InputConnection
+10-25 03:43:27.355  1334  1334 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+10-25 03:43:27.355  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [INPUT_VIEW_SESSION] is not ended while ending session [{INPUT_SESSION=1761338598387, IME_SESSION=1761338598438, INPUT_VIEW_SESSION=1761338598389, TRAINING_CACHE_SESSION=1761338598438}], ending it now.
+10-25 03:43:27.355  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [IME_SESSION] is not ended while ending session [{INPUT_SESSION=1761338598387, IME_SESSION=1761338598438, INPUT_VIEW_SESSION=1761338598389, TRAINING_CACHE_SESSION=1761338598438}], ending it now.
+10-25 03:43:27.355  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [TRAINING_CACHE_SESSION] is not ended while ending session [{INPUT_SESSION=1761338598387, IME_SESSION=1761338598438, INPUT_VIEW_SESSION=1761338598389, TRAINING_CACHE_SESSION=1761338598438}], ending it now.
+10-25 03:43:27.400  1334  1334 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():128 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+10-25 03:43:27.400  1334  1334 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+10-25 03:43:27.400  1334  1334 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+10-25 03:43:27.403  1334  1334 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-25 03:43:27.403  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+10-25 03:43:27.404  1334  1334 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [TRAINING_CACHE_SESSION].
+10-25 03:43:27.404  1334  1334 I AndroidIME: AbstractIme.onDeactivate():161 LatinIme.onDeactivate()
+10-25 03:43:27.405  1334  1334 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [IME_SESSION].
+10-25 03:43:27.406  1334  1334 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = org.telegram.messenger : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 03:43:27.406  1334  1334 I Delight5Facilitator: Delight5Facilitator.initializeForIme():561 initializeForIme() : Locale = [en_US], layout = qwerty
+10-25 03:43:27.406  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+10-25 03:43:27.406  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+10-25 03:43:27.408  1334  1334 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-25 03:43:27.409  1334  4537 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():160 maybeScheduleAutoPackDownloadForFallback()
+10-25 03:43:27.409  1334  4537 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():197 maybeScheduleAutoPackDownload() for language tag en-US
+10-25 03:43:27.426  1334  1334 W KeyboardModeManager: KeyboardModeManager.setInputView():302 setInputView() : inputView = com.google.android.apps.inputmethod.libs.framework.core.InputView{35fd2a9 V.E...... ......ID 0,0-1080,2063}
+10-25 03:43:27.427  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onDeactivate():281 onDeactivate()
+10-25 03:43:27.427  1334  1334 I MagicGCandidateProvider: MagicGCandidateProvider.deactivate():221 onDeactivate()
+10-25 03:43:27.428  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():197 onActivate() : Locale = en_US
+10-25 03:43:27.428  1334  1334 I MagicGCandidateProvider: MagicGCandidateProvider.activate():228 onActivate()
+10-25 03:43:27.429  1334  1334 I ConversationToQueryClientSingleton: ConversationToQueryClientSingleton.initialize():152 Conv2Query client already exists for locale 'en_US'. Checking for update.
+10-25 03:43:27.429  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():227 onActivate() : Finished in 1 ms. Activated = true
+10-25 03:43:27.430  1334  1334 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():336 No private IME option set to start voice input.
+10-25 03:43:27.519  1334  1334 W InputContextProxy: InputContextProxy.applyClientDiffInternal():832 Ignore [FetchSuggestions] diff due to stale request: 872<874, inputStateId=930, lastInputStateId=931
+10-25 03:43:27.537  5389  5403 I egram.messenge: Method exceeds compiler instruction limit: 19010 in void org.telegram.ui.ChatActivity.didReceivedNotification(int, int, java.lang.Object[])
+10-25 03:43:27.539   521  1386 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:27.539   386   459 D AudioFlinger: mixer(0xf4ff3030) throttle end: throttle time(37)
+10-25 03:43:27.540   521  1386 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:28.531  1197  2532 E GmsTaskScheduler: sendWakeUpEvent called on SchedulerClientBroadcastStrategy
+10-25 03:43:28.537  1197  2747 E GmsTaskScheduler: sendWakeUpEvent called on SchedulerClientBroadcastStrategy
+10-25 03:43:30.288   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:30.290   521   608 I chatty  : uid=1000(system) InputDispatcher identical 1 line
+10-25 03:43:30.293   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:30.521   521  1386 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:30.526  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:30.586   521  1386 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:30.589   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:30.752   521   608 I chatty  : uid=1000(system) InputDispatcher identical 2 lines
+10-25 03:43:30.912   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:31.151  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:31.153  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:32.312   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:32.540  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:32.542  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:32.566   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:32.824   521   608 I chatty  : uid=1000(system) InputDispatcher identical 2 lines
+10-25 03:43:32.991   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:32.995  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:32.997  1334  2402 I chatty  : uid=10146(com.google.android.inputmethod.latin) DecoderWrapper identical 37 lines
+10-25 03:43:32.997  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:33.179   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:33.181  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:33.182  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:33.220   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:33.567   521   608 I chatty  : uid=1000(system) InputDispatcher identical 3 lines
+10-25 03:43:33.680   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:33.682  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:33.685  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:33.757   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:33.980   521   608 I chatty  : uid=1000(system) InputDispatcher identical 2 lines
+10-25 03:43:34.188   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:34.425  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:34.429  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:36.217   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:36.414   521   608 I chatty  : uid=1000(system) InputDispatcher identical 1 line
+10-25 03:43:36.528   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:38.156  5389  5389 W IInputConnectionWrapper: getTextBeforeCursor on inactive InputConnection
+10-25 03:43:38.163  5389  5389 W IInputConnectionWrapper: getSelectedText on inactive InputConnection
+10-25 03:43:38.185  5389  5389 W IInputConnectionWrapper: getTextAfterCursor on inactive InputConnection
+10-25 03:43:38.186  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:38.198  5389  5389 W IInputConnectionWrapper: getCursorCapsMode on inactive InputConnection
+10-25 03:43:38.217  5389  5389 W IInputConnectionWrapper: getCursorCapsMode on inactive InputConnection
+10-25 03:43:38.219  1334  1334 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+10-25 03:43:38.219  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [INPUT_VIEW_SESSION] is not ended while ending session [{INPUT_SESSION=1761338607355, IME_SESSION=1761338607405, INPUT_VIEW_SESSION=1761338607356, TRAINING_CACHE_SESSION=1761338607406}], ending it now.
+10-25 03:43:38.220  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [IME_SESSION] is not ended while ending session [{INPUT_SESSION=1761338607355, IME_SESSION=1761338607405, INPUT_VIEW_SESSION=1761338607356, TRAINING_CACHE_SESSION=1761338607406}], ending it now.
+10-25 03:43:38.220  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [TRAINING_CACHE_SESSION] is not ended while ending session [{INPUT_SESSION=1761338607355, IME_SESSION=1761338607405, INPUT_VIEW_SESSION=1761338607356, TRAINING_CACHE_SESSION=1761338607406}], ending it now.
+10-25 03:43:38.266  1334  1334 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():128 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+10-25 03:43:38.267  1334  1334 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+10-25 03:43:38.268  1334  1334 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+10-25 03:43:38.270  1334  1334 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-25 03:43:38.270  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+10-25 03:43:38.270  1334  1334 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [TRAINING_CACHE_SESSION].
+10-25 03:43:38.270  1334  1334 I AndroidIME: AbstractIme.onDeactivate():161 LatinIme.onDeactivate()
+10-25 03:43:38.271  1334  1334 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [IME_SESSION].
+10-25 03:43:38.271  1334  1334 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = org.telegram.messenger : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 03:43:38.272  1334  1334 I Delight5Facilitator: Delight5Facilitator.initializeForIme():561 initializeForIme() : Locale = [en_US], layout = qwerty
+10-25 03:43:38.272  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+10-25 03:43:38.272  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+10-25 03:43:38.272  1334  4537 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():160 maybeScheduleAutoPackDownloadForFallback()
+10-25 03:43:38.273  1334  4537 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():197 maybeScheduleAutoPackDownload() for language tag en-US
+10-25 03:43:38.274  1334  1334 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-25 03:43:38.285  1334  1334 W KeyboardModeManager: KeyboardModeManager.setInputView():302 setInputView() : inputView = com.google.android.apps.inputmethod.libs.framework.core.InputView{35fd2a9 V.E...... ......ID 0,0-1080,2063}
+10-25 03:43:38.286  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onDeactivate():281 onDeactivate()
+10-25 03:43:38.286  1334  1334 I MagicGCandidateProvider: MagicGCandidateProvider.deactivate():221 onDeactivate()
+10-25 03:43:38.286  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():197 onActivate() : Locale = en_US
+10-25 03:43:38.288  1334  1334 I MagicGCandidateProvider: MagicGCandidateProvider.activate():228 onActivate()
+10-25 03:43:38.289  1334  1334 I ConversationToQueryClientSingleton: ConversationToQueryClientSingleton.initialize():152 Conv2Query client already exists for locale 'en_US'. Checking for update.
+10-25 03:43:38.290  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():227 onActivate() : Finished in 2 ms. Activated = true
+10-25 03:43:38.291  1334  1334 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():336 No private IME option set to start voice input.
+10-25 03:43:38.387  1334  1334 W InputContextProxy: InputContextProxy.applyClientDiffInternal():832 Ignore [FetchSuggestions] diff due to stale request: 928<930, inputStateId=992, lastInputStateId=993
+10-25 03:43:38.419   521  3839 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:38.420   386   459 D AudioFlinger: mixer(0xf4ff3030) throttle end: throttle time(37)
+10-25 03:43:38.421   521  3839 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:38.437  5389  5403 I egram.messenge: Method exceeds compiler instruction limit: 33024 in void org.telegram.ui.Cells.ChatMessageCell.setMessageContent(org.telegram.messenger.MessageObject, org.telegram.messenger.MessageObject$GroupedMessages, boolean, boolean, boolean, boolean)
+10-25 03:43:40.125   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:40.130   521   608 I chatty  : uid=1000(system) InputDispatcher identical 2 lines
+10-25 03:43:40.353   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:40.358  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:40.473   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:40.924   521   608 I chatty  : uid=1000(system) InputDispatcher identical 2 lines
+10-25 03:43:41.116   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:41.118  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:41.120  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:41.251   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:41.369   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:41.445   521  1026 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:41.465   521  1026 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:41.473   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:41.479  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:41.486  1334  2402 I chatty  : uid=10146(com.google.android.inputmethod.latin) DecoderWrapper identical 54 lines
+10-25 03:43:41.486  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 5
+10-25 03:43:41.656   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:41.662  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 7
+10-25 03:43:41.663  1334  2402 I chatty  : uid=10146(com.google.android.inputmethod.latin) DecoderWrapper identical 22 lines
+10-25 03:43:41.663  1334  2402 E native  : bikey-model.cc:1023 Invalid frame index: 7
+10-25 03:43:41.893  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:41.896  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:44.852   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:45.177   521   608 I chatty  : uid=1000(system) InputDispatcher identical 3 lines
+10-25 03:43:45.328   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:45.332  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:45.335  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:45.483   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:45.687   521   608 I chatty  : uid=1000(system) InputDispatcher identical 2 lines
+10-25 03:43:45.833   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:45.834  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:45.836  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:45.908   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:46.120   521   608 I chatty  : uid=1000(system) InputDispatcher identical 2 lines
+10-25 03:43:46.244   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:47.489  5389  5403 I egram.messenge: Method exceeds compiler instruction limit: 33024 in void org.telegram.ui.Cells.ChatMessageCell.setMessageContent(org.telegram.messenger.MessageObject, org.telegram.messenger.MessageObject$GroupedMessages, boolean, boolean, boolean, boolean)
+10-25 03:43:47.508  5389  5389 W IInputConnectionWrapper: getTextBeforeCursor on inactive InputConnection
+10-25 03:43:47.520  5389  5389 W IInputConnectionWrapper: getSelectedText on inactive InputConnection
+10-25 03:43:47.537  5389  5389 W IInputConnectionWrapper: getTextAfterCursor on inactive InputConnection
+10-25 03:43:47.539  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:47.567  5389  5389 W IInputConnectionWrapper: getCursorCapsMode on inactive InputConnection
+10-25 03:43:47.584  5389  5389 W IInputConnectionWrapper: getCursorCapsMode on inactive InputConnection
+10-25 03:43:47.584  1334  1334 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+10-25 03:43:47.585  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [INPUT_VIEW_SESSION] is not ended while ending session [{INPUT_SESSION=1761338618220, IME_SESSION=1761338618271, INPUT_VIEW_SESSION=1761338618222, TRAINING_CACHE_SESSION=1761338618271}], ending it now.
+10-25 03:43:47.585  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [IME_SESSION] is not ended while ending session [{INPUT_SESSION=1761338618220, IME_SESSION=1761338618271, INPUT_VIEW_SESSION=1761338618222, TRAINING_CACHE_SESSION=1761338618271}], ending it now.
+10-25 03:43:47.585  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [TRAINING_CACHE_SESSION] is not ended while ending session [{INPUT_SESSION=1761338618220, IME_SESSION=1761338618271, INPUT_VIEW_SESSION=1761338618222, TRAINING_CACHE_SESSION=1761338618271}], ending it now.
+10-25 03:43:47.633  1334  1334 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():128 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+10-25 03:43:47.633  1334  1334 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+10-25 03:43:47.633  1334  1334 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+10-25 03:43:47.636  1334  1334 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-25 03:43:47.636  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+10-25 03:43:47.636  1334  1334 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [TRAINING_CACHE_SESSION].
+10-25 03:43:47.636  1334  1334 I AndroidIME: AbstractIme.onDeactivate():161 LatinIme.onDeactivate()
+10-25 03:43:47.637  1334  1334 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [IME_SESSION].
+10-25 03:43:47.637  1334  1334 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = org.telegram.messenger : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 03:43:47.638  1334  1334 I Delight5Facilitator: Delight5Facilitator.initializeForIme():561 initializeForIme() : Locale = [en_US], layout = qwerty
+10-25 03:43:47.638  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+10-25 03:43:47.638  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+10-25 03:43:47.640  1334  1334 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-25 03:43:47.640  1334  4537 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():160 maybeScheduleAutoPackDownloadForFallback()
+10-25 03:43:47.640  1334  4537 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():197 maybeScheduleAutoPackDownload() for language tag en-US
+10-25 03:43:47.657  1334  1334 W KeyboardModeManager: KeyboardModeManager.setInputView():302 setInputView() : inputView = com.google.android.apps.inputmethod.libs.framework.core.InputView{35fd2a9 V.E...... ......ID 0,0-1080,2063}
+10-25 03:43:47.657  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onDeactivate():281 onDeactivate()
+10-25 03:43:47.657  1334  1334 I MagicGCandidateProvider: MagicGCandidateProvider.deactivate():221 onDeactivate()
+10-25 03:43:47.658  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():197 onActivate() : Locale = en_US
+10-25 03:43:47.658  1334  1334 I MagicGCandidateProvider: MagicGCandidateProvider.activate():228 onActivate()
+10-25 03:43:47.659  1334  1334 I ConversationToQueryClientSingleton: ConversationToQueryClientSingleton.initialize():152 Conv2Query client already exists for locale 'en_US'. Checking for update.
+10-25 03:43:47.659  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():227 onActivate() : Finished in 1 ms. Activated = true
+10-25 03:43:47.660  1334  1334 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():336 No private IME option set to start voice input.
+10-25 03:43:47.754  1334  1334 W InputContextProxy: InputContextProxy.applyClientDiffInternal():832 Ignore [FetchSuggestions] diff due to stale request: 982<984, inputStateId=1051, lastInputStateId=1052
+10-25 03:43:47.771   521  1386 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:47.772   386   459 D AudioFlinger: mixer(0xf4ff3030) throttle end: throttle time(35)
+10-25 03:43:47.772   521  1386 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:48.730   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:48.734   521   608 I chatty  : uid=1000(system) InputDispatcher identical 2 lines
+10-25 03:43:48.890   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:48.893  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:48.986   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:49.193   521   608 I chatty  : uid=1000(system) InputDispatcher identical 1 line
+10-25 03:43:49.321   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:49.323  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:49.326  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:49.525   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:49.988   521   608 I chatty  : uid=1000(system) InputDispatcher identical 4 lines
+10-25 03:43:50.145   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:50.150  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:50.153  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:50.850   521  1386 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:50.864   521  3839 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:52.399   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:52.619  1334  2402 I native  : crank.cc:66 Overriding decoder candidates by Crank
+10-25 03:43:53.060   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:53.220   521   608 I chatty  : uid=1000(system) InputDispatcher identical 1 line
+10-25 03:43:53.334   521   608 D InputDispatcher: Waiting to send key to Window{aa8b99b u0 org.telegram.messenger/org.telegram.messenger.DefaultIcon} because there are unprocessed events that may cause focus to change
+10-25 03:43:53.926  5389  5389 W IInputConnectionWrapper: getTextBeforeCursor on inactive InputConnection
+10-25 03:43:53.932  5389  5389 W IInputConnectionWrapper: getSelectedText on inactive InputConnection
+10-25 03:43:53.954  5389  5389 W IInputConnectionWrapper: getTextAfterCursor on inactive InputConnection
+10-25 03:43:53.962  1334  4651 I AbstractCandidateProvider: AbstractCandidateProvider.getC2QCandidate():122 fetchPredictions() : Inactive
+10-25 03:43:53.987  5389  5389 W IInputConnectionWrapper: getCursorCapsMode on inactive InputConnection
+10-25 03:43:54.003  5389  5389 W IInputConnectionWrapper: getCursorCapsMode on inactive InputConnection
+10-25 03:43:54.005  1334  1334 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+10-25 03:43:54.005  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [INPUT_VIEW_SESSION] is not ended while ending session [{INPUT_SESSION=1761338627585, IME_SESSION=1761338627637, INPUT_VIEW_SESSION=1761338627586, TRAINING_CACHE_SESSION=1761338627637}], ending it now.
+10-25 03:43:54.005  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [IME_SESSION] is not ended while ending session [{INPUT_SESSION=1761338627585, IME_SESSION=1761338627637, INPUT_VIEW_SESSION=1761338627586, TRAINING_CACHE_SESSION=1761338627637}], ending it now.
+10-25 03:43:54.005  1334  1334 W SessionManager: SessionManager.endSession():96 Child session [TRAINING_CACHE_SESSION] is not ended while ending session [{INPUT_SESSION=1761338627585, IME_SESSION=1761338627637, INPUT_VIEW_SESSION=1761338627586, TRAINING_CACHE_SESSION=1761338627637}], ending it now.
+10-25 03:43:54.052  1334  1334 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():128 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+10-25 03:43:54.052  1334  1334 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+10-25 03:43:54.053  1334  1334 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltip():130 dismissTooltip(): tooltip with id inline_suggestion_tooltip not found in tooltipManager.
+10-25 03:43:54.056  1334  1334 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-25 03:43:54.056  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+10-25 03:43:54.056  1334  1334 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [TRAINING_CACHE_SESSION].
+10-25 03:43:54.056  1334  1334 I AndroidIME: AbstractIme.onDeactivate():161 LatinIme.onDeactivate()
+10-25 03:43:54.057  1334  1334 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [IME_SESSION].
+10-25 03:43:54.058  1334  1334 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = org.telegram.messenger : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 03:43:54.058  1334  1334 I Delight5Facilitator: Delight5Facilitator.initializeForIme():561 initializeForIme() : Locale = [en_US], layout = qwerty
+10-25 03:43:54.058  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+10-25 03:43:54.058  1334  1334 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+10-25 03:43:54.058  1334  4537 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():160 maybeScheduleAutoPackDownloadForFallback()
+10-25 03:43:54.058  1334  4537 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():197 maybeScheduleAutoPackDownload() for language tag en-US
+10-25 03:43:54.060  1334  1334 I KeyboardWrapper: KeyboardWrapper.consumeEvent():264 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+10-25 03:43:54.077  1334  1334 W KeyboardModeManager: KeyboardModeManager.setInputView():302 setInputView() : inputView = com.google.android.apps.inputmethod.libs.framework.core.InputView{35fd2a9 V.E...... ......ID 0,0-1080,2063}
+10-25 03:43:54.078  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onDeactivate():281 onDeactivate()
+10-25 03:43:54.078  1334  1334 I MagicGCandidateProvider: MagicGCandidateProvider.deactivate():221 onDeactivate()
+10-25 03:43:54.079  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():197 onActivate() : Locale = en_US
+10-25 03:43:54.079  1334  1334 I MagicGCandidateProvider: MagicGCandidateProvider.activate():228 onActivate()
+10-25 03:43:54.082  1334  1334 I ConversationToQueryClientSingleton: ConversationToQueryClientSingleton.initialize():152 Conv2Query client already exists for locale 'en_US'. Checking for update.
+10-25 03:43:54.083  1334  1334 I ConversationToQueryExtension: ConversationToQueryExtension.onActivate():227 onActivate() : Finished in 4 ms. Activated = true
+10-25 03:43:54.083  1334  1334 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():336 No private IME option set to start voice input.
+10-25 03:43:54.174  1334  1334 W InputContextProxy: InputContextProxy.applyClientDiffInternal():832 Ignore [FetchSuggestions] diff due to stale request: 1020<1022, inputStateId=1093, lastInputStateId=1094
+10-25 03:43:54.188   521  1026 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:54.188   521  1026 I chatty  : uid=1000(system) Binder:521_A identical 1 line
+10-25 03:43:54.188   521  1026 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:54.189   386   459 D AudioFlinger: mixer(0xf4ff3030) throttle end: throttle time(33)
+10-25 03:43:57.324   521  1386 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-25 03:43:57.334   521  1026 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4

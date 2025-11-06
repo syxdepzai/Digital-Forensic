@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="count" value="16" />
+    <string name="object_10">73FC35898C1F00000BE8914A</string>
+    <string name="object_4">73FC35895B1A00007AD4384B</string>
+    <string name="object_5">73FC3589AA1800001762604B</string>
+    <string name="object_6">73FC3589D12100006462694B</string>
+    <string name="object_15">73FC358929260000959C504B</string>
+    <string name="object_7">73FC3589A01D0000D90DE14B</string>
+    <string name="object_0">73FC3589A51A00005166704B</string>
+    <string name="object_13">73FC3589AD1E00002C14914A</string>
+    <string name="object_1">73FC3589221E00004F8FE94B</string>
+    <string name="object_14">73FC35892F1F00005C5A614B</string>
+    <string name="object_2">73FC35893219000037F8F04B</string>
+    <string name="object_11">73FC3589DF1A000074E3894A</string>
+    <string name="object_3">73FC35898325000090F9614B</string>
+    <string name="object_12">73FC358972250000E2C8614A</string>
+    <string name="object_8">73FC3589AC210000EFEA904A</string>
+    <string name="object_9">73FC3589E91A0000093B684A</string>
+    <long name="hash" value="-2068317817079727459" />
+</map>

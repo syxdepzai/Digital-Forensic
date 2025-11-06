@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="feature_usage_last_report_time" value="1761308693435" />
+    <string name="feature_usage_package_name">org.telegram.messenger</string>
+    <string name="feature_usage_sdk_version">21.4.0</string>
+    <long name="feature_usage_timestamp_reported_feature_5" value="1761308693301" />
+</map>
