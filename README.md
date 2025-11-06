@@ -10,7 +10,7 @@ Kho lưu trữ nghiên cứu Digital Forensics, bao gồm đề tài chính về
 Đề tài tập trung vào việc chứng minh khả năng khôi phục dữ liệu đã xóa ở tầng logic trên Android Emulator, khai thác cơ chế SQLite (WAL/SHM) và tương quan đa nguồn artefact (OS logs, application data, filesystem).
 
 ### Thành phần chính
-- **Báo cáo đề tài**: `22162003_22162054_Report.pdf`
+- **Báo cáo đề tài**: `Android_Forensics_Research_Report.pdf`
 - **Bằng chứng số (Digital Evidence)**: `Forensic_Evidence/`
   - Android OS artefacts (nhiều mốc thời gian: Pre-Delete, Immediate, +5min, Post-Reboot)
   - Telegram application artefacts (database, logs, filesystem snapshots)
@@ -33,7 +33,7 @@ Kho lưu trữ nghiên cứu Digital Forensics, bao gồm đề tài chính về
 ## 🔬 Tuyển tập thực hành Digital Forensics
 
 ### Tổng quan
-Bộ tài liệu độc lập (`22162003.pdf`) tổng hợp các bài lab thực hành DFIR trên đa nền tảng (Windows, Linux, Cloud), bao quát quy trình từ xử lý chứng cứ cơ bản đến điều tra phức tạp trên môi trường đám mây.
+Bộ tài liệu độc lập (`Digital_Forensics_Labs.pdf`) tổng hợp các bài lab thực hành DFIR trên đa nền tảng (Windows, Linux, Cloud), bao quát quy trình từ xử lý chứng cứ cơ bản đến điều tra phức tạp trên môi trường đám mây.
 
 ### Nội dung chi tiết
 
@@ -61,8 +61,8 @@ Cấu hình và duy trì môi trường điều tra (Ubuntu/SSH), cài đặt fo
 
 ```
 .
-├── 22162003_22162054_Report.pdf     # Báo cáo đề tài Android Emulator
-├── 22162003.pdf                     # Tuyển tập lab Digital Forensics
+├── Android_Forensics_Research_Report.pdf    # Báo cáo đề tài Android Emulator
+├── Digital_Forensics_Labs.pdf               # Tuyển tập lab Digital Forensics
 ├── Forensic_Evidence/               # Artefacts từ đề tài chính
 │   └── Case_2025-DFIR-ANDROID-001/
 │       ├── OS_Evidence/
@@ -112,7 +112,7 @@ Nếu sử dụng tài liệu này trong nghiên cứu, vui lòng trích dẫn:
 
 ```
 "Điều tra số trên Android: Khôi phục và tái dựng hành vi từ dữ liệu đã xóa"
-Báo cáo: 22162003_22162054_Report.pdf
-Repository: [URL GitHub của bạn]
+Báo cáo: Android_Forensics_Research_Report.pdf
+Repository: https://github.com/syxdepzai/Digital-Forensic
 ```
 
